@@ -1134,3 +1134,133 @@
 2026-04-17 17:47:41.319 [info] [messagesAPI] message 0 returned. finish reason: [stop]
 2026-04-17 17:47:41.331 [info] ccreq:5aa126bc.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 8027ms | [panel/editAgent]
 2026-04-17 17:47:41.556 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-04-17 17:52:09.137 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-04-17 17:52:09.847 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-17 17:52:09.864 [info] ccreq:79768389.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 5559ms | [panel/editAgent]
+2026-04-17 17:52:11.465 [info] message 0 returned. finish reason: [stop]
+2026-04-17 17:52:11.467 [info] request done: requestId: [a6ff3612-4d3b-4ae7-b671-8d573eba4e87] model deployment ID: []
+2026-04-17 17:52:11.468 [info] ccreq:9a69583b.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1520ms | [copilotLanguageModelWrapper]
+2026-04-17 17:52:14.006 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-04-17 17:52:14.646 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-17 17:52:14.664 [info] ccreq:cf119758.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 2902ms | [panel/editAgent]
+2026-04-17 17:52:15.842 [info] message 0 returned. finish reason: [stop]
+2026-04-17 17:52:15.844 [info] request done: requestId: [29f58114-aed3-44d7-8be1-844478048a80] model deployment ID: []
+2026-04-17 17:52:15.845 [info] ccreq:b4a14196.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1345ms | [copilotLanguageModelWrapper]
+2026-04-17 17:52:22.983 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-04-17 17:52:23.115 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-17 17:52:23.130 [info] ccreq:f2f5b618.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 6628ms | [panel/editAgent]
+2026-04-17 17:52:24.823 [info] message 0 returned. finish reason: [stop]
+2026-04-17 17:52:24.825 [info] request done: requestId: [8fd29137-5458-4fa7-ab4f-ca5ca651864a] model deployment ID: []
+2026-04-17 17:52:24.826 [info] ccreq:7f3b6fb9.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1346ms | [copilotLanguageModelWrapper]
+2026-04-17 17:52:26.324 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-04-17 17:52:27.964 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-17 17:52:27.979 [info] ccreq:637d42d3.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3373ms | [panel/editAgent]
+2026-04-17 17:52:28.100 [info] message 0 returned. finish reason: [stop]
+2026-04-17 17:52:28.102 [info] request done: requestId: [470c85b3-3f5a-4dfd-98f3-c304d72742b3] model deployment ID: []
+2026-04-17 17:52:28.102 [info] ccreq:bbf4bc6d.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1188ms | [copilotLanguageModelWrapper]
+2026-04-17 17:52:34.569 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-04-17 17:52:36.200 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-17 17:52:36.213 [info] ccreq:d10435e5.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3487ms | [panel/editAgent]
+2026-04-17 17:52:36.412 [info] message 0 returned. finish reason: [stop]
+2026-04-17 17:52:36.414 [info] request done: requestId: [bcef1614-cf02-4a2e-b761-dd3b1443ab56] model deployment ID: []
+2026-04-17 17:52:36.415 [info] ccreq:b6d64e34.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1225ms | [copilotLanguageModelWrapper]
+2026-04-17 17:52:42.507 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-04-17 17:52:43.344 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-17 17:52:43.358 [info] ccreq:787fbe2c.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 2935ms | [panel/editAgent]
+2026-04-17 17:52:44.790 [info] message 0 returned. finish reason: [stop]
+2026-04-17 17:52:44.793 [info] request done: requestId: [4cb4739f-0790-4864-83e0-af3aec44ce9e] model deployment ID: []
+2026-04-17 17:52:44.793 [info] ccreq:67778245.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1766ms | [copilotLanguageModelWrapper]
+2026-04-17 17:52:48.446 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-04-17 17:52:49.520 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-17 17:52:49.531 [info] ccreq:bb4e4f92.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 2892ms | [panel/editAgent]
+2026-04-17 17:52:50.298 [info] message 0 returned. finish reason: [stop]
+2026-04-17 17:52:50.300 [info] request done: requestId: [1526ac21-4297-4b94-a34d-ff7948f3d4bd] model deployment ID: []
+2026-04-17 17:52:50.301 [info] ccreq:0a0b5c6e.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1291ms | [copilotLanguageModelWrapper]
+2026-04-17 17:52:54.366 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-04-17 17:52:55.429 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-17 17:52:55.459 [info] ccreq:44b1e30e.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 2943ms | [panel/editAgent]
+2026-04-17 17:52:56.193 [info] message 0 returned. finish reason: [stop]
+2026-04-17 17:52:56.194 [info] request done: requestId: [dff8a821-08a4-473a-bf92-ccee50729cf4] model deployment ID: []
+2026-04-17 17:52:56.195 [info] ccreq:ede881e8.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1327ms | [copilotLanguageModelWrapper]
+2026-04-17 17:53:02.399 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-04-17 17:53:04.266 [info] message 0 returned. finish reason: [stop]
+2026-04-17 17:53:04.268 [info] request done: requestId: [f94b9443-65a6-4de3-b1f6-0f51d6f5b62b] model deployment ID: []
+2026-04-17 17:53:04.269 [info] ccreq:73dba876.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1349ms | [copilotLanguageModelWrapper]
+2026-04-17 17:53:06.890 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-17 17:53:06.900 [info] ccreq:60fb2a54.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 7079ms | [panel/editAgent]
+2026-04-17 17:53:06.909 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-04-17 17:55:57.293 [info] Fetched model metadata in 303ms e643bd21-60a6-4880-92d1-9c60c20e081b
+2026-04-17 17:55:57.297 [info] ccreq:820ff07b.copilotmd | markdown
+2026-04-17 17:56:01.554 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-04-17 17:56:02.766 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-17 17:56:02.783 [info] ccreq:87f43f1c.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 4096ms | [panel/editAgent]
+2026-04-17 17:56:03.362 [info] message 0 returned. finish reason: [stop]
+2026-04-17 17:56:03.364 [info] request done: requestId: [95bfc049-d320-4a38-8694-b7c6d4b4d964] model deployment ID: []
+2026-04-17 17:56:03.364 [info] ccreq:1a901eed.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 939ms | [copilotLanguageModelWrapper]
+2026-04-17 17:56:07.536 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-04-17 17:56:08.272 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-17 17:56:08.284 [info] ccreq:eec0fa28.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 2519ms | [panel/editAgent]
+2026-04-17 17:56:09.238 [info] message 0 returned. finish reason: [stop]
+2026-04-17 17:56:09.240 [info] request done: requestId: [ed5a45cf-d86a-4bf0-80d5-5a5010b938f3] model deployment ID: []
+2026-04-17 17:56:09.241 [info] ccreq:18445eb8.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1223ms | [copilotLanguageModelWrapper]
+2026-04-17 17:56:13.311 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-04-17 17:56:14.210 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-17 17:56:14.223 [info] ccreq:b0b67458.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 2956ms | [panel/editAgent]
+2026-04-17 17:56:15.435 [info] message 0 returned. finish reason: [stop]
+2026-04-17 17:56:15.436 [info] request done: requestId: [6cdaff9c-be1a-4c15-823f-f4031c7643e1] model deployment ID: []
+2026-04-17 17:56:15.437 [info] ccreq:598216de.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1418ms | [copilotLanguageModelWrapper]
+2026-04-17 17:56:38.073 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-04-17 17:56:38.905 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-17 17:56:38.919 [info] ccreq:96d08793.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3207ms | [panel/editAgent]
+2026-04-17 17:56:39.848 [info] message 0 returned. finish reason: [stop]
+2026-04-17 17:56:39.850 [info] request done: requestId: [d8f5f064-d902-4d1a-b0b4-0a96d93e6c93] model deployment ID: []
+2026-04-17 17:56:39.851 [info] ccreq:06d58e77.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1305ms | [copilotLanguageModelWrapper]
+2026-04-17 17:56:43.957 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-04-17 17:56:44.926 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-17 17:56:44.941 [info] ccreq:bafa1961.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 2757ms | [panel/editAgent]
+2026-04-17 17:56:46.018 [info] message 0 returned. finish reason: [stop]
+2026-04-17 17:56:46.020 [info] request done: requestId: [94ef0c20-60a3-4b1b-9974-16de52fd69ed] model deployment ID: []
+2026-04-17 17:56:46.020 [info] ccreq:4e055508.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1530ms | [copilotLanguageModelWrapper]
+2026-04-17 17:58:26.531 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-04-17 17:58:27.191 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-17 17:58:27.205 [info] ccreq:4999eed1.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 2976ms | [panel/editAgent]
+2026-04-17 17:58:28.142 [info] message 0 returned. finish reason: [stop]
+2026-04-17 17:58:28.146 [info] request done: requestId: [24dfc913-8fc8-4fe5-aede-7baa62bf8d18] model deployment ID: []
+2026-04-17 17:58:28.147 [info] ccreq:20076035.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1102ms | [copilotLanguageModelWrapper]
+2026-04-17 17:58:31.005 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-04-17 17:58:32.537 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-17 17:58:32.554 [info] ccreq:84ca6525.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3552ms | [panel/editAgent]
+2026-04-17 17:58:32.805 [info] message 0 returned. finish reason: [stop]
+2026-04-17 17:58:32.808 [info] request done: requestId: [457366a2-aad8-497f-8362-38ee626e9149] model deployment ID: []
+2026-04-17 17:58:32.809 [info] ccreq:e8809bd8.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1169ms | [copilotLanguageModelWrapper]
+2026-04-17 17:58:39.493 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-04-17 17:58:40.307 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-17 17:58:40.323 [info] ccreq:cb0d8213.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 2769ms | [panel/editAgent]
+2026-04-17 17:58:41.724 [info] message 0 returned. finish reason: [stop]
+2026-04-17 17:58:41.727 [info] request done: requestId: [4734a5ca-0cb3-495b-9844-9b76e89efa6f] model deployment ID: []
+2026-04-17 17:58:41.728 [info] ccreq:9db45283.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1706ms | [copilotLanguageModelWrapper]
+2026-04-17 17:58:53.995 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-04-17 17:58:54.603 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-17 17:58:54.619 [info] ccreq:2bb2c32e.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3224ms | [panel/editAgent]
+2026-04-17 17:58:55.929 [info] message 0 returned. finish reason: [stop]
+2026-04-17 17:58:55.931 [info] request done: requestId: [5e1634f1-c874-4a0c-bbdf-1119a8f8babf] model deployment ID: []
+2026-04-17 17:58:55.932 [info] ccreq:27753e6d.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1272ms | [copilotLanguageModelWrapper]
+2026-04-17 17:58:57.636 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-04-17 17:58:58.929 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-17 17:58:58.940 [info] ccreq:85af1555.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3399ms | [panel/editAgent]
+2026-04-17 17:59:00.393 [info] message 0 returned. finish reason: [stop]
+2026-04-17 17:59:00.395 [info] request done: requestId: [9633c79d-bec1-4a82-9cdf-36bb8edf337f] model deployment ID: []
+2026-04-17 17:59:00.396 [info] ccreq:9d84f37b.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1123ms | [copilotLanguageModelWrapper]
+2026-04-17 17:59:06.122 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-04-17 17:59:07.182 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-17 17:59:07.195 [info] ccreq:cd52cab1.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3074ms | [panel/editAgent]
+2026-04-17 17:59:07.955 [info] message 0 returned. finish reason: [stop]
+2026-04-17 17:59:07.957 [info] request done: requestId: [00007cfe-41b0-4dbf-a9ce-dea78c51d9cc] model deployment ID: []
+2026-04-17 17:59:07.958 [info] ccreq:a63879af.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1308ms | [copilotLanguageModelWrapper]
+2026-04-17 17:59:13.681 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-04-17 17:59:15.590 [info] message 0 returned. finish reason: [stop]
+2026-04-17 17:59:15.592 [info] request done: requestId: [f925a6c0-973c-44b1-9142-1698bafd824d] model deployment ID: []
+2026-04-17 17:59:15.593 [info] ccreq:cdb74238.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1350ms | [copilotLanguageModelWrapper]
+2026-04-17 17:59:19.610 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-17 17:59:19.621 [info] ccreq:63e611fd.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 7916ms | [panel/editAgent]
+2026-04-17 17:59:19.629 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
