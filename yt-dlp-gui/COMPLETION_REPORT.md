@@ -55,14 +55,19 @@
 
 ### 開発環境 (即座に実行可能)
 ```bash
-# ターミナル 1
-cd backend && python -m uvicorn app:app --reload --port 8000
+# ターミナル 1 - バックエンド
+# ⚠️  重要: 親ディレクトリ /home/user/yt-dlp-gui から実行してください
+cd /home/user/yt-dlp-gui
+python -m uvicorn backend.app:app --reload --port 8000
 
-# ターミナル 2  
+# ターミナル 2 - フロントエンド
 cd frontend && npm install && npm run dev
 
 # ブラウザ: http://localhost:5173
 ```
+
+**注意:** `cd backend && python -m uvicorn app:app --reload` という実行方法は使用できません。
+相対パスのインポートがあるため、バックエンドディレクトリは Python パッケージとして認識される必要があります。
 
 ### スタンドアロン実行ファイル
 ```bash

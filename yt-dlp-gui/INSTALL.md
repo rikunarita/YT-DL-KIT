@@ -41,13 +41,18 @@ npm install
 ### ターミナル 1: バックエンド起動
 
 ```bash
-cd backend
-python -m uvicorn app:app --reload --port 8000
+# ⚠️  重要: 親ディレクトリ /home/user/yt-dlp-gui から実行してください
+cd /home/user/yt-dlp-gui
+python -m uvicorn backend.app:app --reload --port 8000
 ```
 
 出力例:
 ```
 INFO:     Uvicorn running on http://127.0.0.1:8000
+✅ yt-dlp GUI サーバー準備完了
+```
+
+**注意:** `cd backend && python -m uvicorn app:app --reload` という実行方法は使用できません。
 INFO:     Application startup complete
 ```
 

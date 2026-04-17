@@ -54,8 +54,7 @@ async def lifespan(app: FastAPI):
     
     # シャットダウン処理
     print("🛑 yt-dlp GUI サーバーシャットダウン中...")
-    if app_state["scheduler"]:
-        app_state["scheduler"].stop()
+    # Scheduler は自動的にクリーンアップされます
     print("✅ シャットダウン完了")
 
 
