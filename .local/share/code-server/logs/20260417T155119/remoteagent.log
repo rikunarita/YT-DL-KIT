@@ -64,3 +64,4 @@
 2026-04-17 16:11:38.004 [info] [10.16.47.45][74eaf077][ExtensionHostConnection] <11686> Launched Extension Host Process.
 2026-04-17 16:11:38.270 [info] [10.16.47.45][74eaf077][ExtensionHostConnection] <11686> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
 
+2026-04-17 18:05:45.055 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
