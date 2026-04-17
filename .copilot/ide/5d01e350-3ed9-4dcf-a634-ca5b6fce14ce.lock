@@ -1,0 +1,14 @@
+{
+  "socketPath": "/tmp/mcp-hM4zpQ/mcp.sock",
+  "scheme": "unix",
+  "headers": {
+    "Authorization": "Nonce 0a034924-5a8e-4fed-8fac-79319a164511"
+  },
+  "pid": 11686,
+  "ideName": "code-server",
+  "timestamp": 1776442312424,
+  "workspaceFolders": [
+    "/home/user"
+  ],
+  "isTrusted": true
+}

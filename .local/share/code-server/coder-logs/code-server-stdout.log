@@ -1,0 +1,143 @@
+[2026-04-17T15:51:15.638Z] info  code-server 4.116.0 be537ce77a2d84428ad834890d2f6f1e413366ad
+[2026-04-17T15:51:15.639Z] info  Using user-data-dir /home/user/.local/share/code-server
+[2026-04-17T15:51:15.650Z] info  Using config file /home/user/.config/code-server/config.yaml
+[2026-04-17T15:51:15.650Z] info  HTTP server listening on http://0.0.0.0:7860/
+[2026-04-17T15:51:15.650Z] info    - Authentication is enabled
+[2026-04-17T15:51:15.650Z] info      - Using password from $PASSWORD
+[2026-04-17T15:51:15.650Z] info    - Not serving HTTPS
+[2026-04-17T15:51:15.650Z] info  Session server listening on /home/user/.local/share/code-server/code-server-ipc.sock
+[15:51:19] 
+
+
+
+
+[reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[15:51:19] Extension host agent started.
+[15:51:19] Started initializing default profile extensions in extensions installation folder. file:///home/user/.local/share/code-server/extensions
+[15:51:19] Completed initializing default profile extensions in extensions installation folder. file:///home/user/.local/share/code-server/extensions
+[15:51:51] [10.16.44.111][76e58c87][ManagementConnection] New connection established.
+[15:51:54] [10.16.47.45][99332c7d][ExtensionHostConnection] New connection established.
+[15:51:54] [10.16.47.45][99332c7d][ExtensionHostConnection] <926> Launched Extension Host Process.
+[15:51:54] [10.16.47.45][99332c7d][ExtensionHostConnection] <926> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[15:56:55] Getting Manifest... ms-python.python
+[15:56:55] Installing extension: ms-python.python {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isBuiltin: false,
+  isApplicationScoped: false,
+  profileLocation: Vs {
+    scheme: 'file',
+    authority: '',
+    path: '/home/user/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/user/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/user/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.116.0', date: '2026-04-15T00:28:13Z' }
+}
+[15:56:55] Getting Manifest... ms-python.vscode-python-envs
+[15:56:55] Getting Manifest... ms-python.debugpy
+[15:56:55] Installing extension: ms-python.vscode-python-envs {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isBuiltin: false,
+  isApplicationScoped: false,
+  profileLocation: Vs {
+    scheme: 'file',
+    authority: '',
+    path: '/home/user/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/user/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/user/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.116.0', date: '2026-04-15T00:28:13Z' },
+  installGivenVersion: false,
+  context: { dependecyOrPackExtensionInstall: true }
+}
+[15:56:55] Installing extension: ms-python.debugpy {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isBuiltin: false,
+  isApplicationScoped: false,
+  profileLocation: Vs {
+    scheme: 'file',
+    authority: '',
+    path: '/home/user/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/user/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/user/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.116.0', date: '2026-04-15T00:28:13Z' },
+  installGivenVersion: false,
+  context: { dependecyOrPackExtensionInstall: true }
+}
+[15:56:56] Extracted extension to file:///home/user/.local/share/code-server/extensions/ms-python.vscode-python-envs-1.28.0-universal: ms-python.vscode-python-envs
+[15:56:56] Renamed to /home/user/.local/share/code-server/extensions/ms-python.vscode-python-envs-1.28.0-universal
+[15:56:56] Extracted extension to file:///home/user/.local/share/code-server/extensions/ms-python.debugpy-2025.18.0-linux-x64: ms-python.debugpy
+[15:56:56] Renamed to /home/user/.local/share/code-server/extensions/ms-python.debugpy-2025.18.0-linux-x64
+[15:56:57] Extracted extension to file:///home/user/.local/share/code-server/extensions/ms-python.python-2026.4.0-universal: ms-python.python
+[15:56:57] Renamed to /home/user/.local/share/code-server/extensions/ms-python.python-2026.4.0-universal
+[15:56:57] Extension installed successfully: ms-python.vscode-python-envs file:///home/user/.local/share/code-server/extensions/extensions.json
+[15:56:57] Extension installed successfully: ms-python.debugpy file:///home/user/.local/share/code-server/extensions/extensions.json
+[15:56:57] Extension installed successfully: ms-python.python file:///home/user/.local/share/code-server/extensions/extensions.json
+[16:03:55] [10.16.44.111][76e58c87][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[16:03:56] [10.16.47.45][99332c7d][ExtensionHostConnection] <926> Extension Host Process exited with code: 0, signal: null.
+[16:04:08] [10.16.47.45][8be21297][ManagementConnection] New connection established.
+[16:04:11] [10.16.44.111][73a84162][ExtensionHostConnection] New connection established.
+[16:04:11] [10.16.44.111][73a84162][ExtensionHostConnection] <8136> Launched Extension Host Process.
+[16:04:12] [10.16.44.111][73a84162][ExtensionHostConnection] <8136> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[16:05:00] Uninstalling extension from the profile: ms-python.python@2026.4.0 file:///home/user/.local/share/code-server/extensions/extensions.json
+[16:05:00] Uninstalling extension from the profile: ms-python.debugpy@2025.18.0 file:///home/user/.local/share/code-server/extensions/extensions.json
+[16:05:00] Uninstalling extension from the profile: ms-python.vscode-python-envs@1.28.0 file:///home/user/.local/share/code-server/extensions/extensions.json
+[16:05:00] Extensions is already requested to uninstall ms-python.debugpy
+[16:05:00] Extensions is already requested to uninstall ms-python.vscode-python-envs
+[16:05:00] Marked extension as removed ms-python.python-2026.4.0-universal
+[16:05:00] Marked extension as removed ms-python.debugpy-2025.18.0-linux-x64
+[16:05:00] Marked extension as removed ms-python.vscode-python-envs-1.28.0-universal
+[16:05:01] Successfully uninstalled extension from the profile ms-python.python@2026.4.0 file:///home/user/.local/share/code-server/extensions/extensions.json
+[16:05:01] Successfully uninstalled extension from the profile ms-python.debugpy@2025.18.0 file:///home/user/.local/share/code-server/extensions/extensions.json
+[16:05:01] Successfully uninstalled extension from the profile ms-python.vscode-python-envs@1.28.0 file:///home/user/.local/share/code-server/extensions/extensions.json
+[16:05:30] Getting Manifest... ms-ceintl.vscode-language-pack-ja
+[16:05:30] Installing extension: ms-ceintl.vscode-language-pack-ja {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isBuiltin: false,
+  isApplicationScoped: true,
+  profileLocation: Vs {
+    scheme: 'file',
+    authority: '',
+    path: '/home/user/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/user/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/user/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.116.0', date: '2026-04-15T00:28:13Z' }
+}
+[16:05:31] Extracted extension to file:///home/user/.local/share/code-server/extensions/ms-ceintl.vscode-language-pack-ja-1.110.0-universal: ms-ceintl.vscode-language-pack-ja
+[16:05:31] Renamed to /home/user/.local/share/code-server/extensions/ms-ceintl.vscode-language-pack-ja-1.110.0-universal
+[16:05:31] Adding language packs from the extension ms-ceintl.vscode-language-pack-ja
+[16:05:31] Extension installed successfully: ms-ceintl.vscode-language-pack-ja file:///home/user/.local/share/code-server/extensions/extensions.json
+[16:06:04] [10.16.47.45][8be21297][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[16:06:04] [10.16.44.111][73a84162][ExtensionHostConnection] <8136> Extension Host Process exited with code: 0, signal: null.
+[16:06:08] [10.16.44.111][d7969fb1][ManagementConnection] New connection established.
+[16:06:12] [10.16.47.45][c0cf2a5d][ExtensionHostConnection] New connection established.
+[16:06:12] [10.16.47.45][c0cf2a5d][ExtensionHostConnection] <10178> Launched Extension Host Process.
+[16:06:12] [10.16.47.45][c0cf2a5d][ExtensionHostConnection] <10178> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[16:11:13] [10.16.44.111][d7969fb1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[16:11:13] [10.16.47.45][c0cf2a5d][ExtensionHostConnection] <10178> Extension Host Process exited with code: 0, signal: null.
+[16:11:34] [10.16.24.44][fdadde99][ManagementConnection] New connection established.
+[16:11:37] [10.16.47.45][74eaf077][ExtensionHostConnection] New connection established.
+[16:11:38] [10.16.47.45][74eaf077][ExtensionHostConnection] <11686> Launched Extension Host Process.
+[16:11:38] [10.16.47.45][74eaf077][ExtensionHostConnection] <11686> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+

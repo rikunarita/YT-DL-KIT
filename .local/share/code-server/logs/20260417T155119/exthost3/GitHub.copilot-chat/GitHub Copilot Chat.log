@@ -1,0 +1,40 @@
+2026-04-17 16:09:04.010 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-04-17 16:09:04.010 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-04-17 16:09:04.010 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-04-17 16:09:04.010 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-04-17 16:09:04.091 [info] ConversationFeature: Waiting for copilot token to activate conversation feature
+2026-04-17 16:09:04.375 [info] [CopilotCLI] MCP server started. Lock file: /home/user/.copilot/ide/37ae6ea8-1e3d-4425-bd83-46c717b01719.lock
+2026-04-17 16:09:04.375 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-bfeSbN/mcp.sock#%2Fmcp
+2026-04-17 16:09:04.779 [info] [CopilotCLI] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-04-17 16:09:05.775 [info] Can't use the Electron fetcher in this environment.
+2026-04-17 16:09:05.775 [info] Using the Node fetch fetcher.
+2026-04-17 16:09:06.999 [info] Logged in as rikunarita
+2026-04-17 16:09:07.629 [info] Got Copilot token for rikunarita
+2026-04-17 16:09:07.629 [info] Copilot Chat: 0.44.0, VS Code: 1.116.0
+2026-04-17 16:09:07.643 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-04-17 16:09:07.643 [info] activationBlocker from 'languageModelAccess' took for 3587ms
+2026-04-17 16:09:08.167 [info] Fetched model metadata in 4095ms ec8a3c45-e671-4bbb-83f0-7d686386072f
+2026-04-17 16:09:08.172 [info] Latest entry: ccreq:latest.copilotmd
+2026-04-17 16:09:08.172 [info] ccreq:59f12c11.copilotmd | markdown
+2026-04-17 16:09:09.275 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-04-17 16:09:09.275 [info] copilot token sku: free_limited_copilot
+2026-04-17 16:09:09.275 [info] ConversationFeature: Activating contributions
+2026-04-17 16:09:09.275 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-04-17 16:09:09.297 [info] Registering default platform agent...
+2026-04-17 16:09:09.298 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-04-17 16:09:09.299 [info] [code-referencing] Public code references are enabled.
+2026-04-17 16:09:09.300 [info] activationBlocker from 'conversationFeature' took for 5250ms
+2026-04-17 16:09:09.315 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-04-17 16:09:09.319 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-04-17 16:09:10.358 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-04-17 16:09:10.372 [info] Fetched model metadata in 1098ms 7014eda2-5170-4370-a3ad-48eb99ed3670
+2026-04-17 16:09:10.375 [info] ccreq:eb5fb32c.copilotmd | markdown
+2026-04-17 16:09:11.739 [info] Logged in as rikunarita
+2026-04-17 16:09:12.296 [info] Got Copilot token for rikunarita
+2026-04-17 16:09:12.296 [info] Copilot Chat: 0.44.0, VS Code: 1.116.0
+2026-04-17 16:09:13.680 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-04-17 16:09:13.680 [info] copilot token sku: free_limited_copilot
+2026-04-17 16:09:13.680 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-04-17 16:09:13.680 [info] [code-referencing] Public code references are enabled.
+2026-04-17 16:09:13.946 [info] Fetched model metadata in 267ms 2aa8d327-d86c-40dd-be53-3fdfb2ee7d9b
+2026-04-17 16:09:13.950 [info] ccreq:dd9f3955.copilotmd | markdown
