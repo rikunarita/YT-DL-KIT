@@ -18647,3 +18647,1440 @@
 2026-04-17 18:12:28.024 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
 2026-04-17 18:12:28.024 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
 2026-04-17 18:12:28.024 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:28.039 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:28.040 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:28.040 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:28.040 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:28.066 [warning] Using default string since no string found in i18n bundle that has the key: Message ({0} to commit on "{1}")
+2026-04-17 18:12:28.066 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:28.066 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:28.066 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:28.066 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:28.067 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.067 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.067 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.067 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.067 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.067 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.067 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.067 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.067 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.067 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.067 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.067 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.067 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.067 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.067 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.067 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.095 [warning] Using default string since no string found in i18n bundle that has the key: branches
+2026-04-17 18:12:28.095 [warning] Using default string since no string found in i18n bundle that has the key: Remote branch at {0}
+2026-04-17 18:12:28.095 [warning] Using default string since no string found in i18n bundle that has the key: remote branches
+2026-04-17 18:12:28.095 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:28.095 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:28.095 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:28.095 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:28.166 [warning] Using default string since no string found in i18n bundle that has the key: {0} (Working Tree)
+2026-04-17 18:12:28.166 [warning] Using default string since no string found in i18n bundle that has the key: Open
+2026-04-17 18:12:28.166 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.166 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.166 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.166 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.166 [warning] Using default string since no string found in i18n bundle that has the key: {0} (Working Tree)
+2026-04-17 18:12:28.166 [warning] Using default string since no string found in i18n bundle that has the key: Open
+2026-04-17 18:12:28.166 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.166 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.166 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.166 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.166 [warning] Using default string since no string found in i18n bundle that has the key: {0} (Working Tree)
+2026-04-17 18:12:28.166 [warning] Using default string since no string found in i18n bundle that has the key: Open
+2026-04-17 18:12:28.166 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.166 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.166 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.166 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.166 [warning] Using default string since no string found in i18n bundle that has the key: {0} (Working Tree)
+2026-04-17 18:12:28.166 [warning] Using default string since no string found in i18n bundle that has the key: Open
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: {0} (Working Tree)
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Open
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: {0} (Working Tree)
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Open
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: {0} (Working Tree)
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Open
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: {0} (Working Tree)
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Open
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: {0} (Working Tree)
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Open
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: {0} (Working Tree)
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Open
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.167 [warning] Using default string since no string found in i18n bundle that has the key: {0} (Working Tree)
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Open
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: {0} (Working Tree)
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Open
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: {0} (Working Tree)
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Open
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: {0} (Working Tree)
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Open
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: {0} (Working Tree)
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Open
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: {0} (Working Tree)
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Open
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:28.168 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:29.841 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:29.841 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:29.841 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:29.841 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:29.918 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:29.918 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:29.918 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:29.918 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:30.179 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:30.179 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:30.179 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:30.179 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:30.201 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:30.201 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:30.201 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:30.201 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:32.789 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:32.790 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:32.790 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:32.790 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:32.829 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:32.829 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:32.829 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:32.829 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:33.059 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:33.059 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:33.059 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:33.059 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:33.078 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:33.078 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:33.078 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:33.078 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:35.518 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:35.518 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:35.518 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:35.518 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:35.558 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:35.558 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:35.558 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:35.558 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:35.573 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:35.573 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:35.573 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:35.573 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:35.604 [warning] Using default string since no string found in i18n bundle that has the key: Message ({0} to commit on "{1}")
+2026-04-17 18:12:35.605 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:35.605 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:35.605 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:35.605 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:35.605 [warning] Using default string since no string found in i18n bundle that has the key: Commit & Push Changes
+2026-04-17 18:12:35.605 [warning] Using default string since no string found in i18n bundle that has the key: Commit & Sync Changes
+2026-04-17 18:12:35.605 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit & Push
+2026-04-17 18:12:35.605 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit & Sync
+2026-04-17 18:12:35.605 [warning] Using default string since no string found in i18n bundle that has the key: Commit Changes on "{0}"
+2026-04-17 18:12:35.605 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit
+2026-04-17 18:12:35.605 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit (Amend)
+2026-04-17 18:12:35.605 [warning] Using default string since no string found in i18n bundle that has the key: Commit Changes on "{0}"
+2026-04-17 18:12:35.605 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit
+2026-04-17 18:12:35.605 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit (Amend)
+2026-04-17 18:12:35.605 [warning] Using default string since no string found in i18n bundle that has the key: Commit & Push Changes
+2026-04-17 18:12:35.605 [warning] Using default string since no string found in i18n bundle that has the key: Commit & Sync Changes
+2026-04-17 18:12:35.605 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit & Push
+2026-04-17 18:12:35.605 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit & Sync
+2026-04-17 18:12:35.605 [warning] Using default string since no string found in i18n bundle that has the key: Commit Changes on "{0}"
+2026-04-17 18:12:35.605 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit
+2026-04-17 18:12:35.605 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit (Amend)
+2026-04-17 18:12:35.606 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:35.606 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:35.606 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:35.606 [warning] Using default string since no string found in i18n bundle that has the key: branches
+2026-04-17 18:12:35.606 [warning] Using default string since no string found in i18n bundle that has the key: Remote branch at {0}
+2026-04-17 18:12:35.606 [warning] Using default string since no string found in i18n bundle that has the key: remote branches
+2026-04-17 18:12:35.606 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:35.606 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:35.606 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:35.606 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:35.620 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:35.620 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:35.620 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:35.620 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:35.621 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:35.621 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:35.621 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:35.621 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:35.621 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:35.621 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:35.621 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:35.621 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:35.633 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:35.633 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:35.633 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:35.633 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:35.705 [warning] Using default string since no string found in i18n bundle that has the key: {0} (Working Tree)
+2026-04-17 18:12:35.705 [warning] Using default string since no string found in i18n bundle that has the key: Open
+2026-04-17 18:12:35.705 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:35.705 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:35.705 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:35.705 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:35.705 [warning] Using default string since no string found in i18n bundle that has the key: {0} (Working Tree)
+2026-04-17 18:12:35.705 [warning] Using default string since no string found in i18n bundle that has the key: Open
+2026-04-17 18:12:35.705 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:35.705 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:35.705 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:35.705 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:35.705 [warning] Using default string since no string found in i18n bundle that has the key: {0} (Working Tree)
+2026-04-17 18:12:35.705 [warning] Using default string since no string found in i18n bundle that has the key: Open
+2026-04-17 18:12:35.705 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:35.705 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:35.705 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:35.705 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2026-04-17 18:12:36.338 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:36.339 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:36.339 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:36.339 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:36.361 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:36.361 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 18:12:36.361 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2026-04-17 18:12:36.361 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2026-04-17 21:43:22.158 [info] Extension host terminating: renderer disconnected for too long (1)
+2026-04-17 21:43:22.163 [info] Lock '/home/user/.local/share/code-server/User/workspaceStorage/-3026f872/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2026-04-17 21:43:22.299 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.299 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.299 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.299 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.299 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.299 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.299 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.299 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.299 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.299 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.299 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.299 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.299 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.300 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.300 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.300 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.300 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.300 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.300 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.302 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.302 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.302 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.302 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.302 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.302 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.302 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.302 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.302 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.302 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.302 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.302 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.302 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.302 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.302 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.302 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.302 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.303 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.303 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.303 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.303 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.303 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.303 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.303 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.303 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.303 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.303 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.303 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.303 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.303 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.303 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.303 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.303 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.303 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.303 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.303 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.303 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.303 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.303 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.304 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.304 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.304 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.304 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.304 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.304 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.304 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.304 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.304 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.304 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.304 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.304 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.304 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.304 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.304 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.304 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.304 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.304 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.304 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.304 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.304 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.304 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.304 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.305 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.305 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.305 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.305 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.305 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.305 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.305 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.305 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.305 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.305 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.305 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.305 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.305 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.305 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.305 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.305 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.305 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.305 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Ys (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107562
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:407:107470)
+	at uP.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:505:12324)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:11701)
+	at Tf.runner (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:831:8475)
+	at Tf.onInterval (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:404:78907)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-04-17 21:43:22.420 [info] Extension host with pid 11686 exiting with code 0

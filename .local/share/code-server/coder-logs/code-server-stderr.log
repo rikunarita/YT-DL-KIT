@@ -364,3 +364,9 @@ File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.
 (node:27) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
 (Use `node --trace-deprecation ...` to show where the warning was created)
 [18:05:45] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vscode-regexp-languagedetection/dist/index.js
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[05:12:27] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

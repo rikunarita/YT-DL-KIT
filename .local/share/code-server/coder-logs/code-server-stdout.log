@@ -141,3 +141,17 @@
 [16:11:38] [10.16.47.45][74eaf077][ExtensionHostConnection] <11686> Launched Extension Host Process.
 [16:11:38] [10.16.47.45][74eaf077][ExtensionHostConnection] <11686> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
 
+[18:43:15] [10.16.24.44][fdadde99][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[21:43:22] [10.16.47.45][74eaf077][ExtensionHostConnection] <11686> Extension Host Process exited with code: 0, signal: null.
+[04:33:13] [10.16.24.44][a50e5665][ManagementConnection] New connection established.
+[04:33:17] [10.16.47.45][c71bc209][ExtensionHostConnection] New connection established.
+[04:33:17] [10.16.47.45][c71bc209][ExtensionHostConnection] <127934> Launched Extension Host Process.
+[04:33:18] [10.16.47.45][c71bc209][ExtensionHostConnection] <127934> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[04:37:25] [10.16.24.44][a50e5665][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[04:48:43] [10.16.24.44][24fe571f][ManagementConnection] New connection established.
+[04:48:46] [10.16.44.111][317cae92][ExtensionHostConnection] New connection established.
+[04:48:46] [10.16.44.111][317cae92][ExtensionHostConnection] <130987> Launched Extension Host Process.
+[04:48:46] [10.16.44.111][317cae92][ExtensionHostConnection] <130987> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[04:53:43] [10.16.47.45][c71bc209][ExtensionHostConnection] <127934> Extension Host Process exited with code: 0, signal: null.
