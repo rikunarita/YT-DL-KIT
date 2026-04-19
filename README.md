@@ -154,7 +154,7 @@ python build_standalone.py --platform all       # すべてのプラットフォ
 ### ファイル構成
 
 ```
-yt-dlp-gui/
+WeaveDLX/
 ├── backend/
 │   ├── __init__.py
 │   ├── app.py                 # FastAPI メインアプリケーション
@@ -398,7 +398,7 @@ Output files are generated in `packaging/dist` directory.
 ### Project Structure
 
 ```
-yt-dlp-gui/
+WeaveDLX/
 ├── backend/
 │   ├── __init__.py
 │   ├── app.py                 # FastAPI main application
@@ -642,7 +642,7 @@ python build_standalone.py --platform all       # 所有平台
 ### 项目结构
 
 ```
-yt-dlp-gui/
+WeaveDLX/
 ├── backend/
 │   ├── __init__.py
 │   ├── app.py                 # FastAPI 主应用程序
