@@ -1,4 +1,4 @@
-# yt-dlp GUI - Modern Download Manager
+#  WeaveDLX - Modern Download Manager
 
 [日本語](#-日本語) | [English](#-english) | [中文](#-中文)
 
@@ -44,7 +44,7 @@ python setup.py
 **実行結果の例：**
 ```
 ╔════════════════════════════════════════════════════════════╗
-║         yt-dlp GUI - Project Setup                         ║
+║           WeaveDLX - Project Setup                         ║
 ╚════════════════════════════════════════════════════════════╝
 
 ✅ Backend setup complete
@@ -288,7 +288,7 @@ python setup.py
 **Expected output:**
 ```
 ╔════════════════════════════════════════════════════════════╗
-║         yt-dlp GUI - Project Setup                         ║
+║           WeaveDLX - Project Setup                         ║
 ╚════════════════════════════════════════════════════════════╝
 
 ✅ Backend setup complete
@@ -532,7 +532,7 @@ python setup.py
 **预期输出：**
 ```
 ╔════════════════════════════════════════════════════════════╗
-║         yt-dlp GUI - Project Setup                         ║
+║           WeaveDLX - Project Setup                         ║
 ╚════════════════════════════════════════════════════════════╝
 
 ✅ Backend setup complete
