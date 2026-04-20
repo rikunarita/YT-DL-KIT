@@ -6,7 +6,7 @@ from datetime import datetime
 from .models import DownloadStatus
 
 # SQLiteデータベース
-DATABASE_URL = "sqlite:///./yt_dlp_gui.db"
+DATABASE_URL = "sqlite:///./weavedlx.db"
 
 engine = create_engine(
     DATABASE_URL,

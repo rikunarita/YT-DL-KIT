@@ -28,7 +28,7 @@ app_state = {
 async def lifespan(app: FastAPI):
     """アプリケーション起動・シャットダウン処理"""
     # 起動処理
-    print("🚀 yt-dlp GUI サーバー起動中...")
+    print("🚀 WeaveDLX サーバー起動中...")
     
     # データベース初期化
     init_db()
@@ -55,19 +55,19 @@ async def lifespan(app: FastAPI):
     app_state["download_manager"] = DownloadManager()
     app_state["scheduler"] = Scheduler(app_state["download_manager"])
     
-    print("✅ yt-dlp GUI サーバー準備完了")
+    print("✅ WeaveDLX サーバー準備完了")
     
     yield
     
     # シャットダウン処理
-    print("🛑 yt-dlp GUI サーバーシャットダウン中...")
+    print("🛑 WeaveDLX サーバーシャットダウン中...")
     # Scheduler は自動的にクリーンアップされます
     print("✅ シャットダウン完了")
 
 
 # FastAPI アプリケーション初期化
 app = FastAPI(
-    title="yt-dlp GUI Backend",
+    title="WeaveDLX Backend",
     description="yt-dlpパラメータ制御用のバックエンドAPI",
     version="1.0.0",
     lifespan=lifespan
@@ -91,7 +91,7 @@ async def ensure_yt_dlp():
     system = platform.system()
     
     # キャッシュディレクトリ
-    cache_dir = os.path.expanduser("~/.yt-dlp-gui/bin")
+    cache_dir = os.path.expanduser("~/.weavedlx/bin")
     os.makedirs(cache_dir, exist_ok=True)
     
     if system == "Windows":
@@ -134,7 +134,7 @@ async def ensure_yt_dlp():
 async def root():
     """ルートエンドポイント"""
     return {
-        "app": "yt-dlp GUI Backend",
+        "app": "WeaveDLX Backend",
         "version": "1.0.0",
         "status": "running",
         "frontend_url": "http://localhost:5173",

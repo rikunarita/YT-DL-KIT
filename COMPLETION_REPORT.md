@@ -56,8 +56,8 @@
 ### 開発環境 (即座に実行可能)
 ```bash
 # ターミナル 1 - バックエンド
-# ⚠️  重要: 親ディレクトリ /home/user/yt-dlp-gui から実行してください
-cd /home/user/yt-dlp-gui
+# ⚠️  重要: 親ディレクトリ /home/user/WeaveDLX から実行してください
+cd /home/user/WeaveDLX
 python -m uvicorn backend.app:app --reload --port 8000
 
 # ターミナル 2 - フロントエンド
@@ -144,7 +144,7 @@ python build_standalone.py --platform all
 ## 📁 ファイル構成
 
 ```
-yt-dlp-gui/
+WeaveDLX/
 ├── backend/
 │   ├── app.py                     # FastAPI メインアプリ
 │   ├── models.py                  # Pydantic モデル
@@ -169,7 +169,7 @@ yt-dlp-gui/
 │
 ├── packaging/
 │   ├── build_standalone.py       # ビルドスクリプト
-│   └── yt_dlp_gui.spec          # PyInstaller 設定
+│   └── weavedlx.spec          # PyInstaller 設定
 │
 ├── tests/
 │   ├── test_backend_api.py       # バックエンド API テスト

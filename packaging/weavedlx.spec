@@ -1,5 +1,5 @@
 # PyInstaller Spec File for yt-dlp GUI Backend
-# Usage: pyinstaller yt_dlp_gui.spec
+# Usage: pyinstaller weavedlx.spec
 
 import os
 from PyInstaller.utils.hooks import collect_submodules, collect_data_files
@@ -47,7 +47,7 @@ exe = EXE(
     a.scripts,
     [],
     exclude_binaries=True,
-    name='yt-dlp-gui-backend',
+    name='weavedlx-backend',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -67,5 +67,5 @@ coll = COLLECT(
     strip=False,
     upx=True,
     upx_exclude=[],
-    name='yt-dlp-gui-backend',
+    name='weavedlx-backend',
 )

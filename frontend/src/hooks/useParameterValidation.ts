@@ -6,10 +6,11 @@ interface ParameterMetadata {
   category: string
   description: string
   type: string
+  default?: any
   default_value?: any
-  required: boolean
+  required?: boolean
   incompatible_with?: string[]
-  depends_on?: Record<string, string>
+  depends_on?: Record<string, any>
   ui_control: string
   choices?: string[]
 }
@@ -36,7 +37,14 @@ export function useParameterValidation() {
       setLoading(true)
       const response = await settingsAPI.getYtDlpParameters()
       if (response.data.success && response.data.parameters) {
-        setParameters(response.data.parameters)
+        const rawParameters = response.data.parameters
+        const normalizedParameters: ParameterMetadata[] = Array.isArray(rawParameters)
+          ? rawParameters
+          : Object.entries(rawParameters as Record<string, any>).map(([name, param]) => ({
+              ...(param as ParameterMetadata),
+              name,
+            }))
+        setParameters(normalizedParameters)
       }
     } catch (error) {
       console.error('Failed to fetch parameter metadata:', error)
@@ -56,12 +64,18 @@ export function useParameterValidation() {
       }
 
       // 型チェック
-      if (param.type === 'number' && value !== '' && isNaN(Number(value))) {
+      if (
+        param.type === 'number' &&
+        value !== '' &&
+        value !== null &&
+        value !== undefined &&
+        isNaN(Number(value))
+      ) {
         errors.push({ field: paramName, message: '数値を入力してください' })
       }
 
       // 必須チェック
-      if (param.required && (value === '' || value === undefined)) {
+      if (param.required && (value === '' || value === undefined || value === null)) {
         errors.push({ field: paramName, message: 'このパラメータは必須です' })
       }
 
@@ -72,18 +86,24 @@ export function useParameterValidation() {
 
   // 依存関係を自動適用
   const applyDependencies = useCallback(
-    (changedParam: string, value: any): Record<string, any> => {
-      const newValues = { ...parameterValues, [changedParam]: value }
+    (
+      changedParam: string,
+      value: any,
+      currentValues: Record<string, any> = parameterValues,
+    ): Record<string, any> => {
+      const newValues = { ...currentValues, [changedParam]: value }
       const param = parameters.find((p) => p.name === changedParam)
 
       if (!param || !param.depends_on) {
         return newValues
       }
 
-      // 依存パラメータを自動設定
+      // 依存パラメータを自動設定またはクリア
       Object.entries(param.depends_on).forEach(([depParamName, depValue]) => {
         if (value) {
           newValues[depParamName] = depValue
+        } else {
+          delete newValues[depParamName]
         }
       })
 
@@ -94,7 +114,10 @@ export function useParameterValidation() {
 
   // 互換性をチェック
   const checkIncompatibilities = useCallback(
-    (changedParam: string): ValidationError[] => {
+    (
+      changedParam: string,
+      values: Record<string, any> = parameterValues,
+    ): ValidationError[] => {
       const warnings_list: ValidationError[] = []
       const param = parameters.find((p) => p.name === changedParam)
 
@@ -103,7 +126,8 @@ export function useParameterValidation() {
       }
 
       param.incompatible_with.forEach((incompatParamName) => {
-        if (parameterValues[incompatParamName]) {
+        const incompatValue = values[incompatParamName]
+        if (incompatValue !== undefined && incompatValue !== null && incompatValue !== '') {
           warnings_list.push({
             field: changedParam,
             message: `⚠️ ${incompatParamName} と同時に使用できません`,
@@ -119,6 +143,8 @@ export function useParameterValidation() {
   // パラメータ値を更新（検証・依存関係処理込み）
   const updateParameter = useCallback(
     (paramName: string, value: any) => {
+      const updatedValues = applyDependencies(paramName, value)
+
       // 検証
       const errors = validateParameter(paramName, value)
       if (errors.length > 0) {
@@ -128,20 +154,17 @@ export function useParameterValidation() {
       }
 
       // 互換性チェック
-      const incompatWarnings = checkIncompatibilities(paramName)
+      const incompatWarnings = checkIncompatibilities(paramName, updatedValues)
       setWarnings(incompatWarnings)
 
-      // 依存関係を自動適用
-      const updatedValues = applyDependencies(paramName, value)
       setParameterValues(updatedValues)
-
       return updatedValues
     },
     [validateParameter, checkIncompatibilities, applyDependencies],
   )
 
   // バッチで複数パラメータを設定
-  const setParametersValues = useCallback((values: Record<string, any>) => {
+  const setParameterValuesBulk = useCallback((values: Record<string, any>) => {
     setParameterValues(values)
   }, [])
 
@@ -171,7 +194,7 @@ export function useParameterValidation() {
     loading,
     fetchParameterMetadata,
     updateParameter,
-    setParametersValues,
+    setParameterValues: setParameterValuesBulk,
     validateParameter,
     applyDependencies,
     checkIncompatibilities,

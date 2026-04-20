@@ -43,6 +43,7 @@ npm-debug.log
 yarn-error.log
 dist/
 build/
+*.tsbuildinfo
 
 # Environment
 .env

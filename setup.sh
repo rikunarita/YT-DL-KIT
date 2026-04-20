@@ -1,9 +1,9 @@
 #!/bin/bash
-# yt-dlp GUI セットアップスクリプト
+# WeaveDLX セットアップスクリプト
 
 set -e
 
-echo "🚀 yt-dlp GUI セットアップ開始..."
+echo "🚀 WeaveDLX セットアップ開始..."
 
 # バックエンドセットアップ
 echo "📦 バックエンド依存パッケージをインストール中..."
@@ -30,7 +30,7 @@ echo "✨ セットアップ完了！"
 echo ""
 echo "起動方法:"
 echo "1. バックエンド（親ディレクトリから実行）:"
-echo "   cd /home/user/yt-dlp-gui && python -m uvicorn backend.app:app --reload --port 8000"
+echo "   cd /home/user/WeaveDLX && python -m uvicorn backend.app:app --reload --port 8000"
 echo ""
 echo "2. フロントエンド:"
 echo "   cd frontend && npm run dev"

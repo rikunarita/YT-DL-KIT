@@ -6,9 +6,9 @@
     python build_standalone.py [--platform all|windows|macos|linux]
 
 出力:
-    - dist/yt-dlp-gui-windows-x86_64.exe
-    - dist/yt-dlp-gui-macos-universal
-    - dist/yt-dlp-gui-linux-x86_64
+    - dist/weavedlx-windows-x86_64.exe
+    - dist/weavedlx-macos-universal
+    - dist/weavedlx-linux-x86_64
 """
 
 import os
@@ -32,17 +32,17 @@ class BuildConfig:
     PLATFORMS = {
         'windows': {
             'name': 'Windows',
-            'output': 'yt-dlp-gui-windows-x86_64.exe',
+            'output': 'weavedlx-windows-x86_64.exe',
             'pyinstaller_args': ['--windowed', '--onefile'],
         },
         'macos': {
             'name': 'macOS',
-            'output': 'yt-dlp-gui-macos-universal',
+            'output': 'weavedlx-macos-universal',
             'pyinstaller_args': ['--windowed', '--onefile', '--target-arch', 'universal2'],
         },
         'linux': {
             'name': 'Linux',
-            'output': 'yt-dlp-gui-linux-x86_64',
+            'output': 'weavedlx-linux-x86_64',
             'pyinstaller_args': ['--onefile'],
         },
     }
@@ -116,8 +116,8 @@ def build_backend(platform_name):
         BuildConfig.BUILD_DIR.mkdir(parents=True, exist_ok=True)
         
         # PyInstaller コマンド構築
-        spec_file = BuildConfig.PACKAGING_DIR / "yt_dlp_gui.spec"
-        output_name = f"yt-dlp-gui-backend-{platform_name}"
+        spec_file = BuildConfig.PACKAGING_DIR / "weavedlx.spec"
+        output_name = f"weavedlx-backend-{platform_name}"
         
         pyinstaller_cmd = [
             'pyinstaller',
@@ -131,7 +131,7 @@ def build_backend(platform_name):
         if platform_name == 'windows':
             pyinstaller_cmd.extend(['--windowed', '--icon=packaging/icon.ico'])
         elif platform_name == 'macos':
-            pyinstaller_cmd.extend(['--osx-bundle-identifier', 'com.yt-dlp-gui'])
+            pyinstaller_cmd.extend(['--osx-bundle-identifier', 'com.weavedlx'])
         
         pyinstaller_cmd.append(str(BuildConfig.BACKEND_DIR / "app.py"))
         
@@ -149,7 +149,7 @@ def create_bundle(platform_name):
     print(f"\n📦 {platform_name} バンドルを作成中...")
     
     try:
-        output_dir = BuildConfig.DIST_DIR / f"yt-dlp-gui-{platform_name}"
+        output_dir = BuildConfig.DIST_DIR / f"weavedlx-{platform_name}"
         output_dir.mkdir(parents=True, exist_ok=True)
         
         # フロントエンド dist をコピー
@@ -162,7 +162,7 @@ def create_bundle(platform_name):
             )
         
         # バックエンド実行ファイルをコピー
-        backend_exe = BuildConfig.DIST_DIR / f"yt-dlp-gui-backend-{platform_name}"
+        backend_exe = BuildConfig.DIST_DIR / f"weavedlx-backend-{platform_name}"
         if backend_exe.exists():
             shutil.copy(backend_exe, output_dir / "backend")
         
@@ -188,9 +188,9 @@ def create_bundle(platform_name):
 
 def create_launcher_bat(bundle_dir):
     """Windows ランチャースクリプト"""
-    launcher = bundle_dir / "yt-dlp-gui.bat"
+    launcher = bundle_dir / "weavedlx.bat"
     launcher.write_text("""@echo off
-REM yt-dlp GUI Launcher (Windows)
+REM WeaveDLX Launcher (Windows)
 set SCRIPT_DIR=%~dp0
 start "" "%SCRIPT_DIR%backend.exe"
 timeout /t 3 /nobreak
@@ -199,9 +199,9 @@ start http://localhost:5173
 
 def create_launcher_sh(bundle_dir):
     """Unix ランチャースクリプト"""
-    launcher = bundle_dir / "yt-dlp-gui.sh"
+    launcher = bundle_dir / "weavedlx.sh"
     launcher.write_text("""#!/bin/bash
-# yt-dlp GUI Launcher (macOS/Linux)
+# WeaveDLX Launcher (macOS/Linux)
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 "$SCRIPT_DIR/backend" &
 sleep 3

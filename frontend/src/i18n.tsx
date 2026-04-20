@@ -1,11 +1,11 @@
-import { createContext, useContext, useEffect, useMemo, useState } from 'react'
+import { createContext, useContext, useEffect, useMemo, useState, ReactNode } from 'react'
 
 type Language = 'en' | 'ja' | 'zh'
 
 const translations = {
   en: {
     app: {
-      title: 'yt-dlp GUI',
+      title: 'WeaveDLX',
       subTitle: 'Powerful Download Manager for yt-dlp',
       description: 'A clean interface for scheduling, history, and downloads.',
       version: 'v{version}',
@@ -143,8 +143,8 @@ const translations = {
       proxyPassword: 'Proxy Password',
       ffmpegPath: 'FFmpeg Path',
       ffmpegHint: 'Leave empty to auto-detect',
-      ytdlpPath: 'yt-dlp Path',
-      ytdlpHint: 'Managed automatically',
+      ytDlpPath: 'yt-dlp Path',
+      ytDlpHint: 'Managed automatically',
       theme: 'Theme',
       themeLight: 'Light',
       themeDark: 'Dark',
@@ -237,12 +237,12 @@ const translations = {
       ready: 'Ready',
     },
     footer: {
-      copyright: '© 2024 yt-dlp GUI',
+      copyright: '© 2024 WeaveDLX',
     },
   },
   ja: {
     app: {
-      title: 'yt-dlp GUI',
+      title: 'WeaveDLX',
       subTitle: 'シンプルで強力なダウンロード管理',
       description: 'スケジュール、履歴、ダウンロードを洗練されたUIで操作します。',
       version: 'v{version}',
@@ -364,8 +364,8 @@ const translations = {
       proxyPassword: 'プロキシパスワード',
       ffmpegPath: 'FFmpeg パス',
       ffmpegHint: '空欄で自動検出',
-      ytdlpPath: 'yt-dlp パス',
-      ytdlpHint: '動的ダウンロード - 自動管理',
+      ytDlpPath: 'yt-dlp パス',
+      ytDlpHint: '動的ダウンロード - 自動管理',
       theme: 'テーマ',
       themeLight: 'ライト',
       themeDark: 'ダーク',
@@ -458,12 +458,12 @@ const translations = {
       ready: '準備完了',
     },
     footer: {
-      copyright: '© 2024 yt-dlp GUI',
+      copyright: '© 2024 WeaveDLX',
     },
   },
   zh: {
     app: {
-      title: 'yt-dlp GUI',
+      title: 'WeaveDLX',
       subTitle: '简洁而强大的下载管理',
       description: '通过清爽界面管理计划、历史和下载。',
       version: 'v{version}',
@@ -585,8 +585,8 @@ const translations = {
       proxyPassword: '代理密码',
       ffmpegPath: 'FFmpeg 路径',
       ffmpegHint: '留空则自动检测',
-      ytdlpPath: 'yt-dlp 路径',
-      ytdlpHint: '自动管理',
+      ytDlpPath: 'yt-dlp 路径',
+      ytDlpHint: '自动管理',
       theme: '主题',
       themeLight: '浅色',
       themeDark: '深色',
@@ -679,7 +679,7 @@ const translations = {
       ready: '准备就绪',
     },
     footer: {
-      copyright: '© 2024 yt-dlp GUI',
+      copyright: '© 2024 WeaveDLX',
     },
   },
 }
@@ -715,11 +715,11 @@ const formatText = (text: string, values?: Record<string, string | number>) => {
   )
 }
 
-export function LanguageProvider({ children }: { children: React.ReactNode }) {
+export function LanguageProvider({ children }: { children: ReactNode }) {
   const [language, setLanguageState] = useState<Language>('ja')
 
   useEffect(() => {
-    const saved = window.localStorage.getItem('yt-dlp-gui-language') as Language | null
+    const saved = window.localStorage.getItem('weavedlx-language') as Language | null
     if (saved && languages.includes(saved)) {
       setLanguageState(saved)
     } else {
@@ -732,7 +732,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
   const setLanguage = (lang: Language) => {
     if (!languages.includes(lang)) return
-    window.localStorage.setItem('yt-dlp-gui-language', lang)
+    window.localStorage.setItem('weavedlx-language', lang)
     setLanguageState(lang)
   }
 

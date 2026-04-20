@@ -1,4 +1,4 @@
-# yt-dlp GUI - インストール・セットアップガイド
+# WeaveDLX - インストール・セットアップガイド
 
 ## 前提条件
 
@@ -11,8 +11,8 @@
 ### 1. リポジトリをクローン
 
 ```bash
-git clone https://github.com/your-username/yt-dlp-gui.git
-cd yt-dlp-gui
+git clone https://github.com/your-username/WeaveDLX.git
+cd WeaveDLX
 ```
 
 ### 2. 自動セットアップ（推奨）
@@ -41,15 +41,15 @@ npm install
 ### ターミナル 1: バックエンド起動
 
 ```bash
-# ⚠️  重要: 親ディレクトリ /home/user/yt-dlp-gui から実行してください
-cd /home/user/yt-dlp-gui
+# ⚠️  重要: 親ディレクトリ /home/user/WeaveDLX から実行してください
+cd /home/user/WeaveDLX
 python -m uvicorn backend.app:app --reload --port 8000
 ```
 
 出力例:
 ```
 INFO:     Uvicorn running on http://127.0.0.1:8000
-✅ yt-dlp GUI サーバー準備完了
+✅ WeaveDLX サーバー準備完了
 ```
 
 **注意:** `cd backend && python -m uvicorn app:app --reload` という実行方法は使用できません。
@@ -89,8 +89,8 @@ http://localhost:5173
 
 ### バックエンド設定
 
-- **Database**: `./yt_dlp_gui.db` (SQLite)
-- **yt-dlp バイナリ**: `~/.yt-dlp-gui/bin/yt-dlp`（自動ダウンロード）
+- **Database**: `./weavedlx.db` (SQLite)
+- **yt-dlp バイナリ**: `~/.weavedlx/bin/yt-dlp`（自動ダウンロード）
 - **API**: http://localhost:8000
 - **WebSocket**: ws://localhost:8000/ws/downloads/{task_id}
 
@@ -115,16 +115,16 @@ python test_backend.py
 ### 1. yt-dlp バイナリが見つからない
 
 ```
-Error: yt-dlp binary not found at ~/.yt-dlp-gui/bin/yt-dlp
+Error: yt-dlp binary not found at ~/.weavedlx/bin/yt-dlp
 ```
 
 **解決方法**:
 ```bash
-mkdir -p ~/.yt-dlp-gui/bin
+mkdir -p ~/.weavedlx/bin
 # 手動ダウンロード
 # macOS/Linux:
-curl -L https://github.com/yt-dlp/yt-dlp/releases/download/latest/yt-dlp -o ~/.yt-dlp-gui/bin/yt-dlp
-chmod +x ~/.yt-dlp-gui/bin/yt-dlp
+curl -L https://github.com/yt-dlp/yt-dlp/releases/download/latest/yt-dlp -o ~/.weavedlx/bin/yt-dlp
+chmod +x ~/.weavedlx/bin/yt-dlp
 
 # Windows: releases ページからダウンロード
 ```
@@ -181,9 +181,9 @@ cd packaging
 python build_standalone.py
 
 # 出力ファイル
-# - Linux: dist/yt-dlp-gui-linux-x86_64
-# - macOS: dist/yt-dlp-gui-macos-universal
-# - Windows: dist/yt-dlp-gui-windows-x86_64.exe
+# - Linux: dist/weavedlx-linux-x86_64
+# - macOS: dist/weavedlx-macos-universal
+# - Windows: dist/weavedlx-windows-x86_64.exe
 ```
 
 ## リソース
@@ -198,7 +198,7 @@ python build_standalone.py
 ### ディレクトリ構成
 
 ```
-yt-dlp-gui/
+WeaveDLX/
 ├── backend/                # FastAPI アプリケーション
 │   ├── app.py             # メインエントリーポイント
 │   ├── models.py          # Pydantic データモデル

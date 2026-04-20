@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Setup script for yt-dlp-gui project.
+Setup script for WeaveDLX project.
 
 This script prepares the project for development or packaging:
 - Installs backend dependencies
@@ -101,7 +101,7 @@ def build_frontend():
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Setup yt-dlp-gui for development or packaging"
+        description="Setup WeaveDLX for development or packaging"
     )
     parser.add_argument(
         "--build-frontend",

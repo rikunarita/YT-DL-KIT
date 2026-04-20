@@ -75,16 +75,16 @@ python -m uvicorn app:app --reload --port 8000
 
 ターミナルに以下のメッセージが表示されたら成功です：
 ```
-🚀 yt-dlp GUI サーバー起動中...
+🚀 WeaveDLX サーバー起動中...
 ✅ データベース初期化完了
-✅ yt-dlp バイナリ: /home/user/.yt-dlp-gui/bin/yt-dlp
-✅ yt-dlp GUI サーバー準備完了
+✅ yt-dlp バイナリ: /home/user/.weavedlx/bin/yt-dlp
+✅ WeaveDLX サーバー準備完了
 INFO:     Uvicorn running on http://127.0.0.1:8000
 ```
 
 ブラウザで http://localhost:8000/api/health にアクセスして、以下のレスポンスが返ってくることを確認してください：
 ```json
-{"status":"healthy","yt_dlp_path":"/home/user/.yt-dlp-gui/bin/yt-dlp"}
+{"status":"healthy","yt_dlp_path":"/home/user/.weavedlx/bin/yt-dlp"}
 ```
 
 #### フロントエンド開発サーバー起動
@@ -187,7 +187,7 @@ WeaveDLX/
 │   └── tsconfig.json
 ├── packaging/
 │   ├── build_standalone.py
-│   └── yt_dlp_gui.spec
+│   └── weavedlx.spec
 ├── setup.py                    # プロジェクト初期化スクリプト
 └── README.md
 ```
@@ -214,10 +214,10 @@ pkill -f "python -m uvicorn"
 **解決方法：**
 ```bash
 # 手動で確認
-~/.yt-dlp-gui/bin/yt-dlp --version
+~/.weavedlx/bin/yt-dlp --version
 
 # キャッシュをリセット
-rm -rf ~/.yt-dlp-gui/
+rm -rf ~/.weavedlx/
 python setup.py
 ```
 
@@ -321,14 +321,14 @@ You should see these messages in the terminal:
 ```
 🚀 yt-dlp GUI サーバー起動中...
 ✅ データベース初期化完了
-✅ yt-dlp バイナリ: /home/user/.yt-dlp-gui/bin/yt-dlp
-✅ yt-dlp GUI サーバー準備完了
+✅ yt-dlp バイナリ: /home/user/.weavedlx/bin/yt-dlp
+✅ WeaveDLX サーバー準備完了
 INFO:     Uvicorn running on http://127.0.0.1:8000
 ```
 
 Visit http://localhost:8000/api/health in your browser. You should receive:
 ```json
-{"status":"healthy","yt_dlp_path":"/home/user/.yt-dlp-gui/bin/yt-dlp"}
+{"status":"healthy","yt_dlp_path":"/home/user/.weavedlx/bin/yt-dlp"}
 ```
 
 #### Starting Frontend Development Server
@@ -431,7 +431,7 @@ WeaveDLX/
 │   └── tsconfig.json
 ├── packaging/
 │   ├── build_standalone.py
-│   └── yt_dlp_gui.spec
+│   └── weavedlx.spec
 ├── setup.py                    # Project initialization script
 └── README.md
 ```
@@ -458,10 +458,10 @@ pkill -f "python -m uvicorn"
 **Solution:**
 ```bash
 # Check manually
-~/.yt-dlp-gui/bin/yt-dlp --version
+~/.weavedlx/bin/yt-dlp --version
 
 # Reset cache
-rm -rf ~/.yt-dlp-gui/
+rm -rf ~/.weavedlx/
 python setup.py
 ```
 
@@ -565,14 +565,14 @@ python -m uvicorn app:app --reload --port 8000
 ```
 🚀 yt-dlp GUI サーバー起動中...
 ✅ データベース初期化完了
-✅ yt-dlp バイナリ: /home/user/.yt-dlp-gui/bin/yt-dlp
-✅ yt-dlp GUI サーバー準備完了
+✅ yt-dlp バイナリ: /home/user/.weavedlx/bin/yt-dlp
+✅ WeaveDLX サーバー準備完了
 INFO:     Uvicorn running on http://127.0.0.1:8000
 ```
 
 在浏览器中访问 http://localhost:8000/api/health，应获得响应：
 ```json
-{"status":"healthy","yt_dlp_path":"/home/user/.yt-dlp-gui/bin/yt-dlp"}
+{"status":"healthy","yt_dlp_path":"/home/user/.weavedlx/bin/yt-dlp"}
 ```
 
 #### 启动前端开发服务器
@@ -675,7 +675,7 @@ WeaveDLX/
 │   └── tsconfig.json
 ├── packaging/
 │   ├── build_standalone.py
-│   └── yt_dlp_gui.spec
+│   └── weavedlx.spec
 ├── setup.py                    # 项目初始化脚本
 └── README.md
 ```
@@ -702,10 +702,10 @@ pkill -f "python -m uvicorn"
 **解决方案：**
 ```bash
 # 手动检查
-~/.yt-dlp-gui/bin/yt-dlp --version
+~/.weavedlx/bin/yt-dlp --version
 
 # 重置缓存
-rm -rf ~/.yt-dlp-gui/
+rm -rf ~/.weavedlx/
 python setup.py
 ```
 

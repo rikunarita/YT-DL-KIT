@@ -21,7 +21,7 @@ export default function Sidebar({ items, currentPage, onPageChange }: SidebarPro
   return (
     <aside className="relative w-64 bg-slate-900 dark:bg-slate-950 text-white border-r border-slate-800">
       <div className="p-6">
-        <h1 className="text-2xl font-bold tracking-tight">yt-dlp GUI</h1>
+        <h1 className="text-2xl font-bold tracking-tight">WeaveDLX</h1>
         <p className="text-sm text-slate-400 mt-1">{t('app.version', { version: '1.0.0' })}</p>
       </div>
 

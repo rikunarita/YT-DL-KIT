@@ -60,7 +60,7 @@
 - [x] 統合テスト実装
 
 ### フェーズ 6: パッケージング準備 ✅
-- [x] PyInstaller 設定ファイル (yt_dlp_gui.spec)
+- [x] PyInstaller 設定ファイル (weavedlx.spec)
 - [x] build_standalone.py スクリプト
 - [x] マルチプラットフォーム対応構造
   - [x] Windows ビルド対応

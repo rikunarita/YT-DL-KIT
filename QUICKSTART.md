@@ -1,21 +1,21 @@
-# 🚀 yt-dlp GUI - クイックスタート
+# 🚀 WeaveDLX - クイックスタート
 
 ## インストール
 
 ### 自動セットアップ
 ```bash
-cd /home/user/yt-dlp-gui
+cd /home/user/WeaveDLX
 ./setup.sh
 ```
 
 ### 手動セットアップ
 ```bash
 # バックエンド依存パッケージ
-cd /home/user/yt-dlp-gui/backend
+cd /home/user/WeaveDLX/backend
 pip install -r requirements.txt
 
 # フロントエンド依存パッケージ (Node.js 必要)
-cd /home/user/yt-dlp-gui/frontend
+cd /home/user/WeaveDLX/frontend
 npm install
 ```
 
@@ -25,30 +25,30 @@ npm install
 
 ### ✅ 必須：親ディレクトリから実行
 
-**重要:** バックエンドは必ず `/home/user/yt-dlp-gui` ディレクトリから実行してください。
+**重要:** バックエンドは必ず `/home/user/WeaveDLX` ディレクトリから実行してください。
 
 ### ターミナル 1: バックエンド起動
 
 ```bash
 # ❌ 間違い
-cd /home/user/yt-dlp-gui/backend
+cd /home/user/WeaveDLX/backend
 python -m uvicorn app:app --reload
 
 # ✅ 正しい
-cd /home/user/yt-dlp-gui
+cd /home/user/WeaveDLX
 python -m uvicorn backend.app:app --reload --port 8000
 ```
 
 出力例：
 ```
 INFO:     Uvicorn running on http://127.0.0.1:8000
-✅ yt-dlp GUI サーバー準備完了
+✅ WeaveDLX サーバー準備完了
 ```
 
 ### ターミナル 2: フロントエンド起動
 
 ```bash
-cd /home/user/yt-dlp-gui/frontend
+cd /home/user/WeaveDLX/frontend
 npm run dev
 ```
 
@@ -143,9 +143,9 @@ python build_standalone.py --platform all
 ```
 
 出力：
-- `dist/yt-dlp-gui-windows-x86_64.exe`
-- `dist/yt-dlp-gui-macos-universal`
-- `dist/yt-dlp-gui-linux-x86_64`
+- `dist/weavedlx-windows-x86_64.exe`
+- `dist/weavedlx-macos-universal`
+- `dist/weavedlx-linux-x86_64`
 
 ---
 
@@ -153,7 +153,7 @@ python build_standalone.py --platform all
 
 ### バックエンド統合テスト
 ```bash
-cd /home/user/yt-dlp-gui
+cd /home/user/WeaveDLX
 python test_backend.py
 ```
 
@@ -192,7 +192,7 @@ python -m uvicorn backend.app:app --port 8001
 ## ディレクトリ構造
 
 ```
-yt-dlp-gui/
+WeaveDLX/
 ├── backend/           # FastAPI バックエンド
 │   ├── app.py
 │   ├── requirements.txt
