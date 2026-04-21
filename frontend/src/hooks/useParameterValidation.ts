@@ -57,7 +57,7 @@ export function useParameterValidation() {
   const validateParameter = useCallback(
     (paramName: string, value: any): ValidationError[] => {
       const errors: ValidationError[] = []
-      const param = parameters.find((p) => p.name === paramName)
+      const param = parameters.find((p: ParameterMetadata) => p.name === paramName)
 
       if (!param) {
         return errors
@@ -92,7 +92,7 @@ export function useParameterValidation() {
       currentValues: Record<string, any> = parameterValues,
     ): Record<string, any> => {
       const newValues = { ...currentValues, [changedParam]: value }
-      const param = parameters.find((p) => p.name === changedParam)
+      const param = parameters.find((p: ParameterMetadata) => p.name === changedParam)
 
       if (!param || !param.depends_on) {
         return newValues
@@ -119,13 +119,13 @@ export function useParameterValidation() {
       values: Record<string, any> = parameterValues,
     ): ValidationError[] => {
       const warnings_list: ValidationError[] = []
-      const param = parameters.find((p) => p.name === changedParam)
+      const param = parameters.find((p: ParameterMetadata) => p.name === changedParam)
 
       if (!param || !param.incompatible_with) {
         return warnings_list
       }
 
-      param.incompatible_with.forEach((incompatParamName) => {
+      param.incompatible_with.forEach((incompatParamName: string) => {
         const incompatValue = values[incompatParamName]
         if (incompatValue !== undefined && incompatValue !== null && incompatValue !== '') {
           warnings_list.push({

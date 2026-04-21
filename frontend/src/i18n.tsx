@@ -695,7 +695,7 @@ interface TranslationContextProps {
 const TranslationContext = createContext<TranslationContextProps>({
   language: 'ja',
   setLanguage: () => {},
-  t: (key) => key,
+  t: (key: string) => key,
 })
 
 const getNestedValue = (obj: any, path: string[]): string | undefined => {
@@ -738,7 +738,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
 
   const t = (key: string, values?: Record<string, string | number>) => {
     const path = key.split('.')
-    const message = getNestedValue(translations[language], path) as string | undefined
+    const message = getNestedValue(translations[language as Language], path) as string | undefined
     if (message) return formatText(message, values)
     const fallback = getNestedValue(translations.en, path) as string | undefined
     return fallback ? formatText(fallback, values) : key
