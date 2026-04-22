@@ -11,7 +11,7 @@ interface YtDlpParameter {
   default_value?: string | number | boolean
   required: boolean
   incompatible_with?: string[]
-  depends_on?: Record<string, string>
+  depends_on?: string[]
   ui_control: string
   choices?: string[]
 }
@@ -20,22 +20,33 @@ interface CategoryParams {
   [key: string]: YtDlpParameter[]
 }
 
-export default function AdvancedSettings() {
+interface AdvancedSettingsProps {
+  values?: Record<string, any>
+  onChange?: (values: Record<string, any>) => void
+}
+
+export default function AdvancedSettings({ values = {}, onChange }: AdvancedSettingsProps) {
   const [categoryGroups, setCategoryGroups] = useState<CategoryParams>({})
   const [expandedCategories, setExpandedCategories] = useState<Set<string>>(new Set(['General']))
   const [loading, setLoading] = useState(true)
-  const [parameterValues, setParameterValues] = useState<Record<string, any>>({})
+  const [parameterValues, setParameterValues] = useState<Record<string, any>>(values)
   const { t } = useTranslation()
 
   useEffect(() => {
     fetchParameters()
   }, [])
 
+  useEffect(() => {
+    setParameterValues(values)
+  }, [values])
+
   const fetchParameters = async () => {
     try {
       const response = await settingsAPI.getYtDlpParameters()
       if (response.data.success && response.data.parameters) {
-        const params = response.data.parameters
+        const params = Array.isArray(response.data.parameters)
+          ? response.data.parameters
+          : Object.values(response.data.parameters)
 
         const grouped: CategoryParams = {}
         params.forEach((param: YtDlpParameter) => {
@@ -64,7 +75,11 @@ export default function AdvancedSettings() {
   }
 
   const handleParameterChange = (paramName: string, value: any) => {
-    setParameterValues({ ...parameterValues, [paramName]: value })
+    const nextValues = { ...parameterValues, [paramName]: value }
+    setParameterValues(nextValues)
+    if (onChange) {
+      onChange(nextValues)
+    }
   }
 
   const renderParameterInput = (param: YtDlpParameter) => {

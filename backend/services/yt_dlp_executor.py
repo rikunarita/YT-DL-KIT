@@ -1,5 +1,6 @@
 import os
 import signal
+import shlex
 import subprocess
 import asyncio
 import re
@@ -180,21 +181,33 @@ class YtDlpExecutor:
         args.extend(["-o", output_template])
         
         # パラメータをCLI引数に変換
+        raw_options = None
+        if "raw_options" in parameters:
+            raw_options = parameters.pop("raw_options")
+
         for key, value in parameters.items():
             if value is None or value is False:
                 continue
-            
-            # キーをハイフンでつなぎ直す (snake_case → kebab-case)
-            cli_key = f"--{key.replace('_', '-')}"
-            
+
+            cli_key = f"--{key.replace('_', '-') }"
+
             if isinstance(value, bool):
                 if value:
                     args.append(cli_key)
+            elif isinstance(value, list):
+                args.append(cli_key)
+                args.extend(str(item) for item in value)
             else:
                 args.append(cli_key)
                 args.append(str(value))
-        
+
+        if isinstance(raw_options, str) and raw_options.strip():
+            try:
+                args.extend(shlex.split(raw_options))
+            except ValueError:
+                args.extend(raw_options.strip().split())
+
         # 進捗表示を有効化
         args.append("--progress")
-        
+
         return args

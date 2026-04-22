@@ -4,6 +4,8 @@ import { Play } from 'lucide-react'
 import { downloadAPI } from '../services/api'
 import { addTask, setError as setDownloadError } from '../store/slices/downloadSlice'
 import { useTranslation } from '../i18n'
+import AdvancedSettings from './AdvancedSettings'
+import RawOptions from './RawOptions'
 
 export default function DownloadForm() {
   const [url, setUrl] = useState('')
@@ -11,6 +13,8 @@ export default function DownloadForm() {
   const [extractAudio, setExtractAudio] = useState(false)
   const [audioFormat, setAudioFormat] = useState('mp3')
   const [writeSubs, setWriteSubs] = useState(false)
+  const [advancedParameters, setAdvancedParameters] = useState<Record<string, any>>({})
+  const [rawOptions, setRawOptions] = useState('')
   const [loading, setLoading] = useState(false)
 
   const dispatch = useDispatch()
@@ -27,11 +31,16 @@ export default function DownloadForm() {
     setLoading(true)
 
     try {
-      const parameters = {
+      const parameters: Record<string, any> = {
         format,
         extract_audio: extractAudio,
         audio_format: audioFormat,
         write_subs: writeSubs,
+        ...advancedParameters,
+      }
+
+      if (rawOptions.trim()) {
+        parameters.raw_options = rawOptions.trim()
       }
 
       const response = await downloadAPI.startDownload(url, parameters)
@@ -51,6 +60,8 @@ export default function DownloadForm() {
         setExtractAudio(false)
         setAudioFormat('mp3')
         setWriteSubs(false)
+        setAdvancedParameters({})
+        setRawOptions('')
       }
     } catch (error) {
       dispatch(setDownloadError(t('downloadForm.downloadFailed')))
@@ -145,6 +156,16 @@ export default function DownloadForm() {
             {t('downloadForm.subtitles')}
           </span>
         </label>
+      </div>
+
+      <div className="border-t border-slate-200 dark:border-slate-700 pt-6">
+        <h3 className="text-lg font-semibold mb-4">{t('downloadForm.advancedOptions')}</h3>
+        <AdvancedSettings values={advancedParameters} onChange={setAdvancedParameters} />
+      </div>
+
+      <div className="border-t border-slate-200 dark:border-slate-700 pt-6">
+        <h3 className="text-lg font-semibold mb-4">{t('rawOptions.title')}</h3>
+        <RawOptions value={rawOptions} onChange={setRawOptions} />
       </div>
 
       <button

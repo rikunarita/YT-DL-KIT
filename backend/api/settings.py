@@ -32,6 +32,7 @@ async def get_settings(
                 "max_concurrent_downloads": settings.max_concurrent_downloads,
                 "default_proxy": settings.default_proxy,
                 "proxy_username": settings.proxy_username,
+                "proxy_password": settings.proxy_password,
                 "ffmpeg_path": settings.ffmpeg_path,
                 "yt_dlp_path": settings.yt_dlp_path,
                 "theme": settings.theme,
@@ -115,6 +116,8 @@ async def export_config(
             "default_output_directory": settings.default_output_directory if settings else None,
             "max_concurrent_downloads": settings.max_concurrent_downloads if settings else 3,
             "default_proxy": settings.default_proxy if settings else None,
+            "proxy_username": settings.proxy_username if settings else None,
+            "proxy_password": settings.proxy_password if settings else None,
             "theme": settings.theme if settings else "light",
             "auto_update_yt_dlp": settings.auto_update_yt_dlp if settings else True,
             "exported_at": datetime.utcnow().isoformat(),
@@ -144,6 +147,10 @@ async def import_config(
             settings.max_concurrent_downloads = config["max_concurrent_downloads"]
         if "default_proxy" in config:
             settings.default_proxy = config["default_proxy"]
+        if "proxy_username" in config:
+            settings.proxy_username = config["proxy_username"]
+        if "proxy_password" in config:
+            settings.proxy_password = config["proxy_password"]
         if "theme" in config:
             settings.theme = config["theme"]
         if "auto_update_yt_dlp" in config:

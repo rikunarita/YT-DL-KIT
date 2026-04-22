@@ -57,6 +57,7 @@ const translations = {
       audioWav: 'WAV',
       audioOpus: 'Opus',
       audioVorbis: 'Vorbis',
+      advancedOptions: 'Advanced yt-dlp Options',
     },
     downloadQueue: {
       title: 'Queued / Running Downloads',
@@ -294,6 +295,7 @@ const translations = {
       audioWav: 'WAV',
       audioOpus: 'Opus',
       audioVorbis: 'Vorbis',
+      advancedOptions: '高度な yt-dlp オプション',
     },
     downloadQueue: {
       title: 'ダウンロード待機中 / 実行中',
@@ -515,6 +517,7 @@ const translations = {
       audioWav: 'WAV',
       audioOpus: 'Opus',
       audioVorbis: 'Vorbis',
+      advancedOptions: '高级 yt-dlp 选项',
     },
     downloadQueue: {
       title: '排队 / 运行中的下载',

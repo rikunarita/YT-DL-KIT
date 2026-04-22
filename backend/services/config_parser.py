@@ -1,4 +1,5 @@
 import json
+import re
 import subprocess
 from typing import Dict, List, Optional
 from ..models import YtDlpParameter
@@ -15,25 +16,109 @@ class ConfigParser:
         """yt-dlpのメタデータを生成"""
         if self.parameters_metadata:
             return self.parameters_metadata
-        
+
         # yt-dlp --help の出力を取得
         try:
             result = subprocess.run(
-                [self.yt_dlp_path, "--help"],
+                [self.yt_dlp_path or "yt-dlp", "--help"],
                 capture_output=True,
                 text=True,
-                timeout=10
+                timeout=15
             )
-            help_text = result.stdout
+            help_text = self._strip_ansi(result.stdout)
+            self.parameters_metadata = self._parse_help(help_text)
         except Exception as e:
             print(f"⚠️  Failed to get yt-dlp help: {e}")
-            return self._get_default_parameters()
-        
-        # メタデータを手動で定義（パース複雑性を考慮）
-        self.parameters_metadata = self._define_parameters()
-        
+            self.parameters_metadata = self._get_default_parameters()
+
+        if not self.parameters_metadata:
+            self.parameters_metadata = self._get_default_parameters()
+
         return self.parameters_metadata
-    
+
+    def _strip_ansi(self, text: str) -> str:
+        """ANSI エスケープシーケンスを除去"""
+        return re.sub(r'\x1b\[[0-9;]*[A-Za-z]', '', text)
+
+    def _parse_help(self, help_text: str) -> Dict[str, YtDlpParameter]:
+        """yt-dlp --help の出力をパースしてパラメータメタデータを生成"""
+        metadata: Dict[str, YtDlpParameter] = {}
+        current_category = "General Options"
+        lines = help_text.splitlines()
+        i = 0
+
+        while i < len(lines):
+            line = lines[i].rstrip()
+            if not line:
+                i += 1
+                continue
+
+            category_match = re.match(r'^([A-Za-z][A-Za-z0-9 /&+-]+):$', line.strip())
+            if category_match and not line.startswith(' '):
+                current_category = category_match.group(1)
+                i += 1
+                continue
+
+            if '--' in line and line.lstrip().startswith('-'):
+                indent = len(line) - len(line.lstrip())
+                block = [line.lstrip()]
+                j = i + 1
+                while j < len(lines):
+                    next_line = lines[j]
+                    next_indent = len(next_line) - len(next_line.lstrip())
+                    if not next_line.strip() or next_indent <= indent:
+                        break
+                    block.append(next_line.strip())
+                    j += 1
+
+                option_line = ' '.join(block)
+                option = self._parse_option_line(option_line)
+                if option:
+                    option.category = current_category
+                    metadata[option.name] = option
+                i = j
+                continue
+
+            i += 1
+
+        return metadata
+
+    def _parse_option_line(self, line: str) -> Optional[YtDlpParameter]:
+        """1行のオプション定義をパース"""
+        parts = re.split(r'\s{2,}', line.strip(), maxsplit=1)
+        if not parts:
+            return None
+
+        flags = parts[0].strip()
+        description = parts[1].strip() if len(parts) > 1 else ""
+        long_option_match = re.search(r'--([a-zA-Z0-9][a-zA-Z0-9_-]*)', flags)
+        if not long_option_match:
+            return None
+
+        name = long_option_match.group(1)
+        option_type = self._detect_option_type(flags)
+        default_value = False if option_type == "bool" else None
+
+        return YtDlpParameter(
+            name=name,
+            category="General Options",
+            description=description,
+            type=option_type,
+            default_value=default_value,
+            required=False,
+            incompatible_with=[],
+            depends_on=[],
+            ui_control="checkbox" if option_type == "bool" else "text",
+        )
+
+    def _detect_option_type(self, flags: str) -> str:
+        """オプション種別を推定"""
+        if re.search(r'--[a-zA-Z0-9][a-zA-Z0-9_-]*(?:[ =]\[?[A-Z][A-Z0-9_-]*\]?)', flags):
+            return "string"
+        if re.search(r'--[a-zA-Z0-9][a-zA-Z0-9_-]*=.*', flags):
+            return "string"
+        return "bool"
+
     def _define_parameters(self) -> Dict[str, YtDlpParameter]:
         """yt-dlpパラメータメタデータを定義"""
         return {
@@ -325,13 +410,14 @@ class ConfigParser:
     async def export_as_json(self) -> str:
         """パラメータメタデータをJSON形式でエクスポート"""
         metadata = await self.generate_metadata()
-        
-        data = {
-            param.name: {
+
+        data = [
+            {
+                "name": param.name,
                 "category": param.category,
                 "description": param.description,
                 "type": param.type,
-                "default": param.default_value,
+                "default_value": param.default_value,
                 "required": param.required,
                 "incompatible_with": param.incompatible_with,
                 "depends_on": param.depends_on,
@@ -339,6 +425,6 @@ class ConfigParser:
                 "ui_control": param.ui_control,
             }
             for param in metadata.values()
-        }
-        
+        ]
+
         return json.dumps(data, ensure_ascii=False, indent=2)

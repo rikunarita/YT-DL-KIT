@@ -1,8 +1,10 @@
 import asyncio
+import os
 from typing import Dict, List, Optional, Callable
 from datetime import datetime
+from urllib.parse import urlparse, urlunparse
 from sqlalchemy.orm import Session
-from ..database import DownloadTaskDB, SessionLocal
+from ..database import DownloadTaskDB, SessionLocal, GlobalSettingsDB
 from ..models import DownloadTask, DownloadStatus
 from .yt_dlp_executor import YtDlpExecutor
 
@@ -24,6 +26,22 @@ class DownloadManager:
     def set_yt_dlp_path(self, path: str):
         """yt-dlp バイナリパスを設定"""
         self.yt_dlp_path = path
+
+    def _build_proxy_url(self, proxy_url: str, username: str, password: str) -> str:
+        """Proxy URL に認証情報を付与"""
+        if "@" in proxy_url:
+            return proxy_url
+
+        if "://" not in proxy_url:
+            proxy_url = f"http://{proxy_url}"
+
+        parsed = urlparse(proxy_url)
+        if not parsed.scheme or not parsed.netloc:
+            return proxy_url
+
+        auth_netloc = f"{username}:{password}@{parsed.netloc}"
+        rebuilt = parsed._replace(netloc=auth_netloc)
+        return urlunparse(rebuilt)
     
     async def start(self):
         """ダウンロード管理を開始"""
@@ -109,14 +127,14 @@ class DownloadManager:
             db_task = db.query(DownloadTaskDB).filter(DownloadTaskDB.id == task_id).first()
             if not db_task:
                 raise RuntimeError("Download task not found")
-            
+
             db_task.status = DownloadStatus.DOWNLOADING
             db_task.started_at = datetime.utcnow()
             db.commit()
-            
+
             executor = YtDlpExecutor(self.yt_dlp_path)
             self.executors[task_id] = executor
-            
+
             if task_id in self.progress_callbacks:
                 async def progress_callback(progress_info):
                     callback_db = SessionLocal()
@@ -129,15 +147,35 @@ class DownloadManager:
                             callback_db.commit()
                     finally:
                         callback_db.close()
-                    
+
                     if task_id in self.progress_callbacks:
                         await self.progress_callbacks[task_id](progress_info)
                 executor.set_progress_callback(progress_callback)
-            
+
+            task_parameters = dict(task.parameters or {})
+            settings = db.query(GlobalSettingsDB).first()
+            output_template = task.output_path
+
+            if settings:
+                if not task_parameters.get("proxy") and settings.default_proxy:
+                    proxy_url = settings.default_proxy
+                    if settings.proxy_username and settings.proxy_password:
+                        proxy_url = self._build_proxy_url(proxy_url, settings.proxy_username, settings.proxy_password)
+                    task_parameters["proxy"] = proxy_url
+
+                if settings.ffmpeg_path and not task_parameters.get("ffmpeg_location"):
+                    task_parameters["ffmpeg_location"] = settings.ffmpeg_path
+
+                if not output_template:
+                    output_template = os.path.join(os.path.expanduser(settings.default_output_directory), "%(title)s.%(ext)s")
+
+            if not output_template:
+                output_template = "%(title)s.%(ext)s"
+
             result = await executor.execute(
                 task.url,
-                task.parameters,
-                task.output_path or "%(title)s.%(ext)s"
+                task_parameters,
+                output_template
             )
             
             db_task = db.query(DownloadTaskDB).filter(DownloadTaskDB.id == task_id).first()

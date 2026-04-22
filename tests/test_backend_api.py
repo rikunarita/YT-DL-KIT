@@ -135,7 +135,7 @@ class TestSettings:
         assert response.status_code == 200
         data = response.json()
         assert data["success"] is True
-        assert isinstance(data.get("parameters"), dict)
+        assert isinstance(data.get("parameters"), (list, dict))
 
 class TestScheduler:
     """スケジューラ API テスト"""

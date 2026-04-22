@@ -1,11 +1,20 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Copy, Download } from 'lucide-react'
 import { useTranslation } from '../i18n'
 
-export default function RawOptions() {
-  const [rawOptions, setRawOptions] = useState('')
+interface RawOptionsProps {
+  value?: string
+  onChange?: (value: string) => void
+}
+
+export default function RawOptions({ value = '', onChange }: RawOptionsProps) {
+  const [rawOptions, setRawOptions] = useState(value)
   const [copied, setCopied] = useState(false)
   const { t } = useTranslation()
+
+  useEffect(() => {
+    setRawOptions(value)
+  }, [value])
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(rawOptions)
@@ -21,6 +30,13 @@ export default function RawOptions() {
     link.click()
   }
 
+  const handleChange = (value: string) => {
+    setRawOptions(value)
+    if (onChange) {
+      onChange(value)
+    }
+  }
+
   return (
     <div className="space-y-4">
       <div className="p-4 bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-700 rounded-lg">
@@ -34,7 +50,7 @@ export default function RawOptions() {
         <label className="block text-sm font-medium mb-2">{t('rawOptions.label')}</label>
         <textarea
           value={rawOptions}
-          onChange={(e) => setRawOptions(e.target.value)}
+          onChange={(e) => handleChange(e.target.value)}
           placeholder={t('rawOptions.placeholder')}
           className="w-full h-64 p-3 border border-slate-300 dark:border-slate-600 rounded font-mono text-sm"
           spellCheck="false"
