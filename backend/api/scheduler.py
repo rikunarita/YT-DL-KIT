@@ -13,7 +13,7 @@ async def get_schedules(
 ):
     """スケジュール一覧取得"""
     try:
-        from app import app_state
+        from ..app import app_state
         
         if not app_state["scheduler"]:
             raise HTTPException(status_code=500, detail="Scheduler not initialized")
@@ -35,7 +35,7 @@ async def create_schedule(
 ):
     """新規スケジュール作成"""
     try:
-        from app import app_state
+        from ..app import app_state
         
         if not app_state["scheduler"]:
             raise HTTPException(status_code=500, detail="Scheduler not initialized")
@@ -61,7 +61,7 @@ async def update_schedule(
 ):
     """スケジュール更新"""
     try:
-        from app import app_state
+        from ..app import app_state
         
         if not app_state["scheduler"]:
             raise HTTPException(status_code=500, detail="Scheduler not initialized")
@@ -90,7 +90,7 @@ async def delete_schedule(
 ):
     """スケジュール削除"""
     try:
-        from app import app_state
+        from ..app import app_state
         
         if not app_state["scheduler"]:
             raise HTTPException(status_code=500, detail="Scheduler not initialized")

@@ -83,12 +83,9 @@ async def get_yt_dlp_parameters(
 ):
     """yt-dlpパラメータメタデータ取得"""
     try:
-        from app import app_state
+        from ..app import app_state
         
         yt_dlp_path = app_state.get("yt_dlp_path")
-        if not yt_dlp_path:
-            raise HTTPException(status_code=500, detail="yt-dlp not initialized")
-        
         parser = ConfigParser(yt_dlp_path)
         json_str = await parser.export_as_json()
         

@@ -13,7 +13,7 @@ async def start_download(
     db: Session = Depends(get_db)
 ):
     """ダウンロード開始"""
-    from app import app_state
+    from ..app import app_state
     
     if not app_state["download_manager"]:
         raise HTTPException(status_code=500, detail="Download manager not initialized")
@@ -34,7 +34,7 @@ async def get_queue(
     db: Session = Depends(get_db)
 ):
     """ダウンロードキュー取得"""
-    from app import app_state
+    from ..app import app_state
     
     try:
         queue = await app_state["download_manager"].get_queue()
@@ -52,7 +52,7 @@ async def get_status(
     db: Session = Depends(get_db)
 ):
     """タスク詳細取得"""
-    from app import app_state
+    from ..app import app_state
     
     try:
         task = await app_state["download_manager"].get_task_status(task_id)
@@ -72,7 +72,7 @@ async def pause_download(
     db: Session = Depends(get_db)
 ):
     """ダウンロード一時停止"""
-    from app import app_state
+    from ..app import app_state
     
     try:
         await app_state["download_manager"].pause_download(task_id)
@@ -90,7 +90,7 @@ async def resume_download(
     db: Session = Depends(get_db)
 ):
     """ダウンロード再開"""
-    from app import app_state
+    from ..app import app_state
     
     try:
         await app_state["download_manager"].resume_download(task_id)
@@ -108,7 +108,7 @@ async def cancel_download(
     db: Session = Depends(get_db)
 ):
     """ダウンロードキャンセル"""
-    from app import app_state
+    from ..app import app_state
     
     try:
         await app_state["download_manager"].cancel_download(task_id)

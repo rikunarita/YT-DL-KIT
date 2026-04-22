@@ -15,27 +15,35 @@ class DownloadManager:
         self.task_queue: asyncio.Queue = asyncio.Queue()
         self.active_tasks: Dict[int, asyncio.Task] = {}
         self.progress_callbacks: Dict[int, Callable] = {}
-        self.yt_dlp_executor: Optional[YtDlpExecutor] = None
+        self.executors: Dict[int, YtDlpExecutor] = {}
+        self.yt_dlp_path: Optional[str] = None
         self.semaphore = asyncio.Semaphore(max_concurrent)
         self.running = False
+        self.worker_tasks: List[asyncio.Task] = []
     
-    def set_yt_dlp_executor(self, executor: YtDlpExecutor):
-        """yt-dlp Executor を設定"""
-        self.yt_dlp_executor = executor
+    def set_yt_dlp_path(self, path: str):
+        """yt-dlp バイナリパスを設定"""
+        self.yt_dlp_path = path
     
     async def start(self):
         """ダウンロード管理を開始"""
         self.running = True
         # ワーカーを起動
-        for i in range(self.max_concurrent):
-            asyncio.create_task(self._worker())
+        for _ in range(self.max_concurrent):
+            worker = asyncio.create_task(self._worker())
+            self.worker_tasks.append(worker)
     
     async def stop(self):
         """ダウンロード管理を停止"""
         self.running = False
-        # アクティブなタスクをすべてキャンセル
-        for task_id, task in self.active_tasks.items():
+        for worker in self.worker_tasks:
+            worker.cancel()
+        self.worker_tasks.clear()
+        for task in list(self.active_tasks.values()):
             task.cancel()
+        self.active_tasks.clear()
+        self.executors.clear()
+        self.progress_callbacks.clear()
     
     async def add_download(self, task: DownloadTask, progress_callback: Optional[Callable] = None) -> int:
         """ダウンロードをキューに追加"""
@@ -74,77 +82,92 @@ class DownloadManager:
             except asyncio.TimeoutError:
                 continue
             
-            # セマフォで並列数を制限
+            db = SessionLocal()
+            db_task = db.query(DownloadTaskDB).filter(DownloadTaskDB.id == task_id).first()
+            if not db_task or db_task.status != DownloadStatus.PENDING:
+                db.close()
+                continue
+            db.close()
+            
             async with self.semaphore:
-                await self._execute_download(task_id, task)
+                current = asyncio.current_task()
+                if current is not None:
+                    self.active_tasks[task_id] = current
+                try:
+                    await self._execute_download(task_id, task)
+                finally:
+                    self.active_tasks.pop(task_id, None)
     
     async def _execute_download(self, task_id: int, task: DownloadTask):
         """ダウンロード実行"""
         db = SessionLocal()
         
         try:
-            # ステータスを DOWNLOADING に更新
+            if not self.yt_dlp_path:
+                raise RuntimeError("yt-dlp path is not configured")
+            
             db_task = db.query(DownloadTaskDB).filter(DownloadTaskDB.id == task_id).first()
+            if not db_task:
+                raise RuntimeError("Download task not found")
+            
             db_task.status = DownloadStatus.DOWNLOADING
             db_task.started_at = datetime.utcnow()
             db.commit()
             
-            # プログレスコールバック設定
-            if self.yt_dlp_executor and task_id in self.progress_callbacks:
+            executor = YtDlpExecutor(self.yt_dlp_path)
+            self.executors[task_id] = executor
+            
+            if task_id in self.progress_callbacks:
                 async def progress_callback(progress_info):
-                    db_task = db.query(DownloadTaskDB).filter(DownloadTaskDB.id == task_id).first()
-                    db_task.progress_percent = progress_info.get("percent", 0.0)
-                    db_task.speed = progress_info.get("speed")
-                    db_task.eta = progress_info.get("eta")
-                    db.commit()
+                    callback_db = SessionLocal()
+                    try:
+                        callback_task = callback_db.query(DownloadTaskDB).filter(DownloadTaskDB.id == task_id).first()
+                        if callback_task:
+                            callback_task.progress_percent = progress_info.get("percent", 0.0)
+                            callback_task.speed = progress_info.get("speed")
+                            callback_task.eta = progress_info.get("eta")
+                            callback_db.commit()
+                    finally:
+                        callback_db.close()
                     
-                    # ユーザーコールバック
                     if task_id in self.progress_callbacks:
                         await self.progress_callbacks[task_id](progress_info)
-                
-                self.yt_dlp_executor.set_progress_callback(progress_callback)
+                executor.set_progress_callback(progress_callback)
             
-            # ダウンロード実行
-            if self.yt_dlp_executor:
-                result = await self.yt_dlp_executor.execute(
-                    task.url,
-                    task.parameters,
-                    task.output_path or "%(title)s.%(ext)s"
-                )
-                
-                # 結果を DB に保存
-                db_task = db.query(DownloadTaskDB).filter(DownloadTaskDB.id == task_id).first()
-                
-                if result["success"]:
+            result = await executor.execute(
+                task.url,
+                task.parameters,
+                task.output_path or "%(title)s.%(ext)s"
+            )
+            
+            db_task = db.query(DownloadTaskDB).filter(DownloadTaskDB.id == task_id).first()
+            if db_task:
+                if result.get("success"):
                     db_task.status = DownloadStatus.COMPLETED
                     db_task.current_filename = result.get("filename")
                 else:
                     db_task.status = DownloadStatus.FAILED
                     db_task.error_message = result.get("error")
-                
                 db_task.completed_at = datetime.utcnow()
                 db.commit()
-            
         except asyncio.CancelledError:
-            # キャンセルされた場合
             db_task = db.query(DownloadTaskDB).filter(DownloadTaskDB.id == task_id).first()
-            db_task.status = DownloadStatus.CANCELLED
-            db_task.completed_at = datetime.utcnow()
-            db.commit()
-        
+            if db_task:
+                db_task.status = DownloadStatus.CANCELLED
+                db_task.completed_at = datetime.utcnow()
+                db.commit()
+            raise
         except Exception as e:
-            # エラー処理
             db_task = db.query(DownloadTaskDB).filter(DownloadTaskDB.id == task_id).first()
-            db_task.status = DownloadStatus.FAILED
-            db_task.error_message = str(e)
-            db_task.completed_at = datetime.utcnow()
-            db.commit()
-        
+            if db_task:
+                db_task.status = DownloadStatus.FAILED
+                db_task.error_message = str(e)
+                db_task.completed_at = datetime.utcnow()
+                db.commit()
         finally:
             db.close()
-            # コールバック削除
-            if task_id in self.progress_callbacks:
-                del self.progress_callbacks[task_id]
+            self.executors.pop(task_id, None)
+            self.progress_callbacks.pop(task_id, None)
     
     async def pause_download(self, task_id: int):
         """ダウンロード一時停止"""
@@ -155,9 +178,9 @@ class DownloadManager:
             db_task.status = DownloadStatus.PAUSED
             db.commit()
             
-            # Executor に通知
-            if self.yt_dlp_executor:
-                self.yt_dlp_executor.pause()
+            executor = self.executors.get(task_id)
+            if executor:
+                executor.pause()
         
         db.close()
     
@@ -170,9 +193,9 @@ class DownloadManager:
             db_task.status = DownloadStatus.DOWNLOADING
             db.commit()
             
-            # Executor に通知
-            if self.yt_dlp_executor:
-                self.yt_dlp_executor.resume()
+            executor = self.executors.get(task_id)
+            if executor:
+                executor.resume()
         
         db.close()
     
@@ -186,9 +209,12 @@ class DownloadManager:
             db_task.completed_at = datetime.utcnow()
             db.commit()
             
-            # Executor に通知
-            if self.yt_dlp_executor:
-                self.yt_dlp_executor.cancel()
+            executor = self.executors.get(task_id)
+            if executor:
+                executor.cancel()
+            
+            if task_id in self.active_tasks:
+                self.active_tasks[task_id].cancel()
         
         db.close()
     

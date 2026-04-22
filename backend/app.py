@@ -39,10 +39,10 @@ async def lifespan(app: FastAPI):
     settings = db.query(GlobalSettingsDB).first()
     if not settings:
         # デフォルト設定を作成
-        default_settings = GlobalSettingsDB()
-        db.add(default_settings)
+        settings = GlobalSettingsDB()
+        db.add(settings)
         db.commit()
-        db.refresh(default_settings)
+        db.refresh(settings)
         print("✅ デフォルト設定を作成")
     db.close()
     
@@ -52,8 +52,12 @@ async def lifespan(app: FastAPI):
     # Download Manager と Scheduler を後で初期化
     from backend.services.download_manager import DownloadManager
     from backend.services.scheduler import Scheduler
-    app_state["download_manager"] = DownloadManager()
-    app_state["scheduler"] = Scheduler(app_state["download_manager"])
+    download_manager = DownloadManager(max_concurrent=settings.max_concurrent_downloads)
+    download_manager.set_yt_dlp_path(app_state["yt_dlp_path"])
+    await download_manager.start()
+    app_state["download_manager"] = download_manager
+    app_state["scheduler"] = Scheduler(download_manager)
+    await app_state["scheduler"].start()
     
     print("✅ WeaveDLX サーバー準備完了")
     
@@ -61,7 +65,10 @@ async def lifespan(app: FastAPI):
     
     # シャットダウン処理
     print("🛑 WeaveDLX サーバーシャットダウン中...")
-    # Scheduler は自動的にクリーンアップされます
+    if app_state.get("scheduler"):
+        await app_state["scheduler"].stop()
+    if app_state.get("download_manager"):
+        await app_state["download_manager"].stop()
     print("✅ シャットダウン完了")
 
 

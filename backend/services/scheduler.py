@@ -3,7 +3,7 @@ from datetime import datetime
 from typing import Optional, Dict, List
 from croniter import croniter
 from sqlalchemy.orm import Session
-from ..database import ScheduledDownloadDB, SessionLocal
+from ..database import ScheduledDownloadDB, DownloadProfileDB, SessionLocal
 from ..models import DownloadTask, ScheduledDownload
 from .download_manager import DownloadManager
 
@@ -57,15 +57,9 @@ class Scheduler:
     async def _check_and_execute(self, schedule: ScheduledDownloadDB, db: Session):
         """スケジュール実行チェック"""
         try:
-            cron = croniter(schedule.cron_expression)
             now = datetime.utcnow()
-            
-            # 最後の実行時刻から次の実行時刻を計算
-            if schedule.last_run:
-                last_run = schedule.last_run
-            else:
-                # 初回実行
-                last_run = now
+            base_time = schedule.last_run or now
+            cron = croniter(schedule.cron_expression, base_time)
             
             # 次の実行時刻
             next_run = cron.get_next(datetime)

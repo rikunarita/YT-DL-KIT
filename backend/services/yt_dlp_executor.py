@@ -1,3 +1,5 @@
+import os
+import signal
 import subprocess
 import asyncio
 import re
@@ -13,6 +15,7 @@ class YtDlpExecutor:
         self.yt_dlp_path = yt_dlp_path
         self.process: Optional[subprocess.Popen] = None
         self.progress_callback: Optional[Callable] = None
+        self._loop: Optional[asyncio.AbstractEventLoop] = None
     
     def set_progress_callback(self, callback: Callable):
         """プログレス更新コールバック設定"""
@@ -26,6 +29,9 @@ class YtDlpExecutor:
     ) -> Dict:
         """yt-dlpを実行"""
         try:
+            if not self.yt_dlp_path:
+                raise RuntimeError("yt-dlp path is not configured")
+
             # パラメータからCLI引数を構築
             args = self._build_args(url, parameters, output_template)
             
@@ -39,8 +45,8 @@ class YtDlpExecutor:
                 universal_newlines=True
             )
             
-            # stdout を非同期で読み込み
-            result = await self._read_output()
+            self._loop = asyncio.get_running_loop()
+            result = await asyncio.to_thread(self._read_output)
             return result
         
         except Exception as e:
@@ -50,13 +56,22 @@ class YtDlpExecutor:
                 "filename": None,
             }
     
-    async def _read_output(self) -> Dict:
+    def _dispatch_progress(self, progress_info: Dict):
+        if not self.progress_callback or not self._loop:
+            return
+
+        if asyncio.iscoroutinefunction(self.progress_callback):
+            asyncio.run_coroutine_threadsafe(self.progress_callback(progress_info), self._loop)
+        else:
+            self._loop.call_soon_threadsafe(self.progress_callback, progress_info)
+
+    def _read_output(self) -> Dict:
         """プロセス出力を読み込み"""
         filename = None
         error_output = []
         
         try:
-            while self.process.poll() is None:
+            while self.process and self.process.poll() is None:
                 line = self.process.stdout.readline()
                 if not line:
                     break
@@ -65,8 +80,8 @@ class YtDlpExecutor:
                 
                 # プログレス情報を抽出
                 progress_info = self._parse_progress_line(line)
-                if progress_info and self.progress_callback:
-                    await self.progress_callback(progress_info)
+                if progress_info:
+                    self._dispatch_progress(progress_info)
                 
                 # ファイル名を抽出
                 if "Destination:" in line:
@@ -76,20 +91,18 @@ class YtDlpExecutor:
                 if "ERROR" in line:
                     error_output.append(line)
             
-            # 残りの出力を読み込み
-            remaining_stdout, remaining_stderr = self.process.communicate()
-            if remaining_stdout:
-                for line in remaining_stdout.split("\n"):
-                    if line.strip():
-                        progress_info = self._parse_progress_line(line)
-                        if progress_info and self.progress_callback:
-                            await self.progress_callback(progress_info)
+            if self.process:
+                remaining_stdout, remaining_stderr = self.process.communicate()
+                if remaining_stdout:
+                    for line in remaining_stdout.split("\n"):
+                        if line.strip():
+                            progress_info = self._parse_progress_line(line)
+                            if progress_info:
+                                self._dispatch_progress(progress_info)
+                if remaining_stderr:
+                    error_output.extend(remaining_stderr.split("\n"))
             
-            if remaining_stderr:
-                error_output.extend(remaining_stderr.split("\n"))
-            
-            # リターンコード確認
-            return_code = self.process.returncode
+            return_code = self.process.returncode if self.process else -1
             
             if return_code == 0:
                 return {
@@ -137,12 +150,18 @@ class YtDlpExecutor:
     def pause(self):
         """プロセス一時停止"""
         if self.process:
-            self.process.send_signal(19)  # SIGSTOP
+            if os.name == "posix":
+                self.process.send_signal(signal.SIGSTOP)
+            else:
+                print("⚠️ Pause is not supported on this platform.")
     
     def resume(self):
         """プロセス再開"""
         if self.process:
-            self.process.send_signal(18)  # SIGCONT
+            if os.name == "posix":
+                self.process.send_signal(signal.SIGCONT)
+            else:
+                print("⚠️ Resume is not supported on this platform.")
     
     def cancel(self):
         """プロセスキャンセル"""
