@@ -14,7 +14,9 @@ export const useWebSocket = (taskId: number) => {
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
-    const ws = new WebSocket(`ws://localhost:8000/ws/downloads/${taskId}`)
+    const protocol = window.location.protocol === 'https:' ? 'wss' : 'ws'
+    const websocketUrl = `${protocol}://${window.location.host}/ws/downloads/${taskId}`
+    const ws = new WebSocket(websocketUrl)
 
     ws.onopen = () => {
       console.log(`WebSocket connected for task ${taskId}`)
