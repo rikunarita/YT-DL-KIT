@@ -28,6 +28,9 @@ const downloadSlice = createSlice({
   name: 'downloads',
   initialState,
   reducers: {
+    setTasks: (state, action: PayloadAction<DownloadTask[]>) => {
+      state.tasks = action.payload
+    },
     addTask: (state, action: PayloadAction<DownloadTask>) => {
       state.tasks.push(action.payload)
     },
@@ -52,5 +55,5 @@ const downloadSlice = createSlice({
   },
 })
 
-export const { addTask, updateTask, removeTask, setLoading, setError, clearError } = downloadSlice.actions
+export const { setTasks, addTask, updateTask, removeTask, setLoading, setError, clearError } = downloadSlice.actions
 export default downloadSlice.reducer

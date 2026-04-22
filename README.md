@@ -10,7 +10,7 @@
 
 ### 機能
 
-- ✅ yt-dlp の 150+ パラメータをフルサポート
+- ✅ yt-dlp の 250+ パラメータをフルサポート
 - ✅ 複数並列ダウンロード管理（スケジューラ対応）
 - ✅ ダウンロード履歴・統計情報
 - ✅ プロファイル管理
@@ -63,6 +63,8 @@ Next steps:
 ```bash
 python -m uvicorn backend.app:app --reload --port 8000
 ```
+
+※ ポート 8000 がすでに使用されている場合は、`--port 8001` など別のポートを指定して起動してください。
 
 **方法 2：バックエンドディレクトリから起動**
 
@@ -254,7 +256,7 @@ A modern web UI to control all yt-dlp features in a desktop application.
 
 ### Features
 
-- ✅ Full support for 150+ yt-dlp parameters
+- ✅ Full support for 250+ yt-dlp parameters
 - ✅ Multi-threaded download management with scheduler support
 - ✅ Download history and statistics
 - ✅ Profile management
@@ -498,7 +500,7 @@ MIT
 
 ### 功能
 
-- ✅ 完全支持 150+ 个 yt-dlp 参数
+- ✅ 完全支持 250+ 个 yt-dlp 参数
 - ✅ 多线程下载管理（支持调度器）
 - ✅ 下载历史记录和统计信息
 - ✅ 配置文件管理

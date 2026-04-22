@@ -3,7 +3,8 @@ import { useSelector, useDispatch } from 'react-redux'
 import { Pause, Play, X } from 'lucide-react'
 import { downloadAPI } from '../services/api'
 import { RootState } from '../store/store'
-import { removeTask, updateTask } from '../store/slices/downloadSlice'
+import { removeTask, setTasks, updateTask } from '../store/slices/downloadSlice'
+import { DownloadTask } from '../store/slices/downloadSlice'
 import { useTranslation } from '../i18n'
 
 export default function DownloadQueue() {
@@ -12,19 +13,22 @@ export default function DownloadQueue() {
   const { t } = useTranslation()
 
   useEffect(() => {
-    const interval = setInterval(async () => {
+    const fetchQueue = async () => {
       try {
         const response = await downloadAPI.getQueue()
         if (response.data.success) {
-          // ここでタスクを更新できます
+          dispatch(setTasks(response.data.tasks as DownloadTask[]))
         }
       } catch (error) {
         console.error('Failed to fetch queue:', error)
       }
-    }, 2000)
+    }
+
+    fetchQueue()
+    const interval = setInterval(fetchQueue, 2000)
 
     return () => clearInterval(interval)
-  }, [])
+  }, [dispatch])
 
   const handlePause = async (taskId: number) => {
     try {
