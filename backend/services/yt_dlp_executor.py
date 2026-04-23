@@ -40,7 +40,7 @@ class YtDlpExecutor:
             self.process = subprocess.Popen(
                 [self.yt_dlp_path] + args,
                 stdout=subprocess.PIPE,
-                stderr=subprocess.PIPE,
+                stderr=subprocess.STDOUT,
                 text=True,
                 bufsize=1,
                 universal_newlines=True
@@ -93,15 +93,15 @@ class YtDlpExecutor:
                     error_output.append(line)
             
             if self.process:
-                remaining_stdout, remaining_stderr = self.process.communicate()
+                remaining_stdout = self.process.communicate()[0]
                 if remaining_stdout:
                     for line in remaining_stdout.split("\n"):
                         if line.strip():
                             progress_info = self._parse_progress_line(line)
                             if progress_info:
                                 self._dispatch_progress(progress_info)
-                if remaining_stderr:
-                    error_output.extend(remaining_stderr.split("\n"))
+                            if "ERROR" in line:
+                                error_output.append(line)
             
             return_code = self.process.returncode if self.process else -1
             

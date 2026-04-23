@@ -280,7 +280,14 @@ class DownloadManager:
         """キュー内のタスク一覧を取得"""
         db = SessionLocal()
         db_tasks = db.query(DownloadTaskDB).filter(
-            DownloadTaskDB.status.in_([DownloadStatus.PENDING, DownloadStatus.DOWNLOADING])
+            DownloadTaskDB.status.in_(
+                [
+                    DownloadStatus.PENDING,
+                    DownloadStatus.DOWNLOADING,
+                    DownloadStatus.PAUSED,
+                    DownloadStatus.FAILED,
+                ]
+            )
         ).all()
         db.close()
         
@@ -293,6 +300,7 @@ class DownloadManager:
                 speed=t.speed,
                 eta=t.eta,
                 current_filename=t.current_filename,
+                error_message=t.error_message,
             )
             for t in db_tasks
         ]

@@ -174,9 +174,9 @@ export default function AdvancedSettings({ values = {}, onChange }: AdvancedSett
                         <HelpCircle size={16} className="text-slate-400 cursor-help" />
                         <div className="absolute bottom-full left-0 mb-2 hidden group-hover:block w-64 bg-slate-900 text-white text-xs rounded p-2 z-10">
                           {param.description}
-                          {param.depends_on && Object.keys(param.depends_on).length > 0 && (
+                          {param.depends_on && param.depends_on.length > 0 && (
                             <div className="mt-2 text-yellow-300">
-                              ⚠️ {t('advancedSettings.dependsOn')}: {Object.keys(param.depends_on).join(', ')}
+                              ⚠️ {t('advancedSettings.dependsOn')}: {param.depends_on.join(', ')}
                             </div>
                           )}
                           {param.incompatible_with && param.incompatible_with.length > 0 && (

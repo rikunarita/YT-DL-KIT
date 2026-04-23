@@ -67,6 +67,9 @@ const translations = {
       remove: 'Cancel',
       pause: 'Pause',
       resume: 'Resume',
+      activeTasks: 'Current queue',
+      tasksCount: 'tasks active',
+      failedTasks: 'Failed tasks',
     },
     history: {
       title: 'Download History',
@@ -305,6 +308,9 @@ const translations = {
       remove: 'キャンセル',
       pause: '一時停止',
       resume: '再開',
+      activeTasks: '現在のキュー',
+      tasksCount: '件のタスク',
+      failedTasks: '失敗したタスク',
     },
     history: {
       title: 'ダウンロード履歴',
@@ -527,6 +533,9 @@ const translations = {
       remove: '取消',
       pause: '暂停',
       resume: '继续',
+      activeTasks: '当前队列',
+      tasksCount: '个任务',
+      failedTasks: '失败任务',
     },
     history: {
       title: '下载历史',

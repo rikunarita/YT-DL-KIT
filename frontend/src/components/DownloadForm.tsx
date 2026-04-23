@@ -32,11 +32,20 @@ export default function DownloadForm() {
 
     try {
       const parameters: Record<string, any> = {
-        format,
-        extract_audio: extractAudio,
-        audio_format: audioFormat,
-        write_subs: writeSubs,
         ...advancedParameters,
+      }
+
+      if (format && format !== 'best') {
+        parameters.format = format
+      }
+
+      if (extractAudio) {
+        parameters.extract_audio = true
+        parameters.audio_format = audioFormat
+      }
+
+      if (writeSubs) {
+        parameters.write_subs = true
       }
 
       if (rawOptions.trim()) {

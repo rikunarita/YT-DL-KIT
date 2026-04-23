@@ -73,6 +73,17 @@ export default function DownloadQueue() {
 
   return (
     <div className="space-y-4">
+      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 p-4 rounded-3xl bg-slate-100 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm">
+        <div>
+          <p className="text-sm font-medium text-slate-900 dark:text-slate-100">{t('downloadQueue.activeTasks')}</p>
+          <p className="text-xs text-slate-500 dark:text-slate-400">{tasks.length} {t('downloadQueue.tasksCount')}</p>
+        </div>
+        {tasks.some((task) => task.status === 'failed') && (
+          <div className="inline-flex items-center gap-2 rounded-full bg-red-50 dark:bg-red-900/20 px-3 py-2 text-xs text-red-700 dark:text-red-200">
+            {t('downloadQueue.failedTasks')}: {tasks.filter((task) => task.status === 'failed').length}
+          </div>
+        )}
+      </div>
       {tasks.map((task) => {
         const statusText = t(`status.${task.status}`)
 
@@ -85,7 +96,7 @@ export default function DownloadQueue() {
                   {task.current_filename || t('downloadQueue.downloading')}
                 </p>
               </div>
-              <span className="inline-flex items-center px-3 py-1 text-xs font-semibold rounded-full bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-100">
+              <span className={`inline-flex items-center px-3 py-1 text-xs font-semibold rounded-full ${task.status === 'failed' ? 'bg-red-100 dark:bg-red-900 text-red-800 dark:text-red-100' : 'bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-100'}`}>
                 {statusText}
               </span>
             </div>
